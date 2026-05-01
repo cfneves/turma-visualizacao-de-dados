@@ -95,23 +95,82 @@ _Sua pasta ainda não aparece aqui? Siga o [guia de contribuição](./CONTRIBUTI
 
 ---
 
-## Como Participar
+## Como Participar — Fork e Clone
+
+Você vai precisar usar **os dois**: fork e clone. Eles fazem coisas diferentes e se complementam.
+
+### Fork vs Clone — entenda a diferença
+
+| | Fork | Clone |
+|--|------|-------|
+| **O que faz** | Copia o repositório para a **sua conta no GitHub** | Baixa o repositório para a **sua máquina** |
+| **Onde fica** | Na nuvem (github.com/SEU_USUARIO) | No seu computador (pasta local) |
+| **Para que serve** | Ter um repositório próprio onde você pode enviar alterações | Trabalhar nos arquivos localmente, no seu editor |
+| **Sem ele** | Você não tem permissão para enviar alterações | Você não consegue trabalhar offline nem usar VS Code / Jupyter |
+
+> **Resumo:** o fork cria a sua cópia no GitHub. O clone traz essa cópia para o seu computador. Você precisa dos dois.
+
+---
+
+### Fluxo completo — passo a passo
+
+```
+Repositório do professor          Seu GitHub               Seu computador
+github.com/cfneves/...    →fork→  github.com/SEU_USUARIO/  →clone→  pasta local
+                                         ↑                              ↓
+                                         └──────── push ────────────────┘
+                          ←PR←   github.com/SEU_USUARIO/
+```
+
+**1. Fork — faça UMA vez**
+
+Acesse [github.com/cfneves/turma-visualizacao-de-dados](https://github.com/cfneves/turma-visualizacao-de-dados) e clique no botão **Fork** (canto superior direito). Isso cria uma cópia do repositório na sua conta.
+
+**2. Clone — faça UMA vez por máquina**
+
+Copie o endereço do SEU fork (não o do professor) e rode no terminal:
 
 ```bash
-# 1. Fork este repositório (botão Fork no GitHub)
-
-# 2. Clone o seu fork
 git clone https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
 cd turma-visualizacao-de-dados
+```
 
-# 3. Adicione o repositório original como upstream
+> ⚠️ Atenção: clone sempre o SEU fork (`SEU_USUARIO`), não o repositório do professor (`cfneves`). Se clonar o do professor, não terá permissão para enviar alterações.
+
+**3. Conecte ao repositório original — faça UMA vez**
+
+Isso permite que você atualize seu fork quando o professor adicionar novos materiais:
+
+```bash
 git remote add upstream https://github.com/cfneves/turma-visualizacao-de-dados.git
 
-# 4. Crie sua pasta de aluno
-mkdir alunos/nome-sobrenome
+# Confirme que os dois endereços estão configurados:
+git remote -v
+# origin    https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
+# upstream  https://github.com/cfneves/turma-visualizacao-de-dados.git
+```
 
-# 5. Copie o template de portfólio
+**4. Crie sua pasta de aluno — faça UMA vez**
+
+```bash
+mkdir alunos/nome-sobrenome
 cp alunos/TEMPLATE_README.md alunos/nome-sobrenome/README.md
+```
+
+**5. Para cada entrega: edite → commit → push → PR**
+
+```bash
+# Antes de qualquer entrega, atualize seu fork com o conteúdo mais recente:
+git fetch upstream
+git merge upstream/main
+
+# Faça suas alterações dentro de alunos/seu-nome/
+# Depois envie:
+git add alunos/seu-nome/
+git commit -m "feat(alunos): adiciona exercício 01 - Seu Nome"
+git push origin main
+
+# Por fim, abra um Pull Request no GitHub
 ```
 
 Consulte o [CONTRIBUTING.md](./CONTRIBUTING.md) para o guia completo, incluindo como resolver conflitos.
