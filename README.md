@@ -14,15 +14,77 @@
 
 ## Sobre o Curso
 
-Este repositório reúne os materiais, exercícios e portfólios da turma de **Visualização de Dados**. O objetivo é que cada aluno use seu espaço aqui como ponto de partida para um portfólio público de análise de dados — visível para recrutadores e colaboradores.
+| | |
+|--|--|
+| **Curso** | Análise de Dados |
+| **Disciplina** | Visualização de Dados e Business Intelligence |
+| **Instituição** | Lab365 / SENAI SC |
+| **Carga horária** | 2 módulos · 14 semanas cada · 3 aulas por semana |
 
-Ao longo do curso você aprenderá a:
+Este repositório reúne os materiais, exercícios e portfólios da turma. O objetivo é que cada aluno use seu espaço aqui como ponto de partida para um portfólio público de análise de dados — visível para recrutadores e colaboradores.
 
-- Coletar, limpar e transformar dados reais
-- Criar visualizações claras e eficazes com Python
-- Contar histórias com dados (data storytelling)
-- Versionar projetos com Git e GitHub
-- Publicar um portfólio profissional
+---
+
+## Plano do Curso
+
+### Módulo 1 — Fundamentos de Análise de Dados
+> 14/04/2025 a 17/07/2025 · Aulas: Terça, Quinta e Sexta
+
+| Semana | Período | Tema |
+|--------|---------|------|
+| 1 | 14–17/04 | Introdução e Fundamentos de Business Intelligence |
+| 2 | 21–24/04 | Lógica de Programação com Python |
+| 3 | 28/04–01/05 | Python + Versionamento com Git e GitHub |
+| 4 | 05–08/05 | Manipulação de Dados · Funções e Modularização |
+| 5 | 12–15/05 | Pandas e NumPy |
+| 6 | 19–22/05 | Limpeza e Transformação de Dados |
+| 7 | 26–29/05 | Fontes de Dados · Web Scraping · **Mini-Projeto Avaliativo** |
+| 8 | 02–05/06 | Modelagem Dimensional · Data Warehouse |
+| 9 | 09–12/06 | SQL para DW |
+| 10 | 16–19/06 | SQL Avançado · Window Functions · Performance |
+| 11 | 23–26/06 | Análise Exploratória de Dados (AED) |
+| 12 | 30/06–03/07 | Visualização com Seaborn e Matplotlib |
+| 13 | 07–10/07 | **Projeto Avaliativo Individual** |
+| 14 | 14–17/07 | Encerramento do Módulo 1 |
+
+**Avaliação Módulo 1**
+
+| Avaliação | Peso | Descrição |
+|-----------|------|-----------|
+| M1.1 — Mini-Projeto | 25% | Extração e limpeza de dados públicos com Python (squads) |
+| M1.2 — Projeto Individual | 60% | AED + visualizações + documentação de base pública |
+| M1.3 — Listas de Exercícios | 15% | Exercícios semanais entregues no AVA |
+
+---
+
+### Módulo 2 — Visualização de Dados e Business Intelligence
+> 21/07/2025 a 30/10/2025 · Aulas: Segunda, Quarta e Sexta
+
+| Semana | Período | Tema |
+|--------|---------|------|
+| 1 | 21–24/07 | Ética em Dados · LGPD · Vieses Algorítmicos |
+| 2 | 28–31/07 | Introdução a Dashboards · Ferramentas de BI |
+| — | 04–07/08 | _Semana de Recuperação do Módulo 1_ |
+| 3 | 11–14/08 | Looker Studio — Fundamentos |
+| 4 | 18–21/08 | Looker Studio — Avançado · Storytelling |
+| 5 | 25–28/08 | Design de Dashboards · UX/UI · **Mini-Projeto Avaliativo** |
+| 6 | 01–04/09 | Power BI — Fundamentos |
+| 7 | 08–11/09 | Power BI — DAX · Publicação · Mobile |
+| 8 | 15–18/09 | Tableau — Fundamentos |
+| 9 | 22–25/09 | Tableau — LOD · Storytelling · Publicação |
+| 10 | 29/09–02/10 | Streamlit com Python — Fundamentos |
+| 11 | 06–09/10 | Streamlit com Python — Deploy na Nuvem |
+| 12 | 13–16/10 | Metodologias Ágeis · SCRUM · Kanban |
+| 13 | 20–23/10 | **Projeto Avaliativo em Squads** |
+| 14 | 27–30/10 | Encerramento do Módulo 2 |
+
+**Avaliação Módulo 2**
+
+| Avaliação | Peso | Descrição |
+|-----------|------|-----------|
+| M2.1 — Mini-Projeto | 30% | Painel Looker Studio com design e storytelling (squads) |
+| M2.2 — Projeto em Squads | 60% | 2 dashboards (Streamlit + ferramenta à escolha) + documentação |
+| M2.3 — Listas de Exercícios | 10% | Exercícios semanais entregues no AVA |
 
 ---
 
