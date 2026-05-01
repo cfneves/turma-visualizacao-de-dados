@@ -263,7 +263,7 @@ cp alunos/TEMPLATE_README.md alunos/nome-sobrenome/README.md
 ```bash
 # Antes de qualquer entrega, atualize seu fork com o conteúdo mais recente:
 git fetch upstream
-git merge upstream/main
+git merge upstream/master
 
 # Faça suas alterações dentro de alunos/seu-nome/
 # Depois envie:
