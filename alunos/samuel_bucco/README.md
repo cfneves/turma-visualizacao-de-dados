@@ -1,0 +1,1 @@
+Arquivo README da turma de visualização de dados do programa SCTEC
