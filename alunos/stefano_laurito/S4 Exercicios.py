@@ -57,3 +57,7 @@ else:
 # Exercício 4: Tabuada
 # Peça um número e exiba a tabuada dele de 1 a 10.
 # Use um loop for com range(1, 11)
+print("Olá, bem-vindo!\nVamos aprender a tabuada!")
+numero = int(input("Digite um número: "))
+for i in range(1, 11):
+    print(f"{numero} x {i} = {numero * i}")
