@@ -1,0 +1,97 @@
+print("Bem Vindo ao Programa de Gestão de Produtos do Carlão v1.0\n")
+
+produtos = []
+pedidos = []
+
+while True:
+
+    print("Selecione uma das opções abaixo\n")
+
+    print("1 - Cadastrar produto e Estoque")
+    print("2 - Ver Estoque")
+    print("3 - Digitar Pedido")
+    print("4 - Ver Pedido em Aberto")
+    print("5 - Efetuar Venda")
+    print("6 - Sair")
+
+    opcao = int(input())
+
+    if opcao == 1:
+
+        print("Cadastro de Produtos e Estqoue\n")
+
+        while True:
+            print("Insira o SKU do produto ou Voltar para sair do Cadastro")
+
+            sku = input()
+
+            if sku == "Voltar":
+                break
+
+            print("Insira o nome do produto")
+            nome_produto = input()
+
+            print("Insira o valor do produto")
+            valor = input()
+
+            print("Quantidade em estoque")
+            estoque = int(input())
+
+            produto = {
+                "sku": sku,
+                "nome": nome_produto,
+                "valor": valor,
+                "estoque": estoque
+            }
+
+            produtos.append(produto)
+    
+    elif opcao == 2:
+
+        print(produtos)
+     
+    elif opcao == 3:
+
+        print("Venda de Produtos\n")
+
+        while True:
+            print("Insira o código do produto ou Finalizar para finalizar a venda")
+
+            sku = input()
+
+            if sku == "Finalizar":
+                break
+
+            print("Insira a quantidade vendida")
+            quantidade = int(input())
+   
+            if quantidade <= estoque:
+                situacao = "OK"
+            
+            else:
+                situacao = "Estoque insuficiente"
+
+            pedido = {
+                "sku": sku,
+                "quantidade": quantidade,
+                "situação": situacao            
+            }
+
+            pedidos.append(pedido)
+
+    
+    elif opcao == 4:
+        print(pedidos)
+        break
+
+    elif opcao == 5:
+        print(pedido)
+        break
+
+
+    elif opcao == 6:
+        print("Encerrando")
+        break
+
+    else:
+        print("Errou")
