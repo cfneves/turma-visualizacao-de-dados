@@ -186,9 +186,9 @@ O fluxo é simples: **clone → branch → trabalhe → envie → PR**. Sem fork
 **Branch** é uma linha de trabalho isolada dentro do mesmo repositório. Você cria uma branch para cada entrega, trabalha nela sem afetar o restante do projeto, e abre um PR para integrar quando estiver pronto.
 
 ```
-main  ──────────────────────────────────────►  (protegida — nunca altere diretamente)
-          │
-          └─── feat/exercicio-01-seu-nome  ──►  (sua branch de entrega)
+master  ────────────────────────────────────►  (protegida — nunca altere diretamente)
+            │
+            └─── feat/exercicio-01-seu-nome  ──►  (sua branch de entrega)
 ```
 
 ---
@@ -213,8 +213,8 @@ Edite o `README.md` com suas informações — esse arquivo é o seu portfólio 
 
 ```bash
 # 1. Atualize seu repositório local com as novidades do professor:
-git checkout main
-git pull origin main
+git checkout master
+git pull origin master
 
 # 2. Crie uma branch para esta entrega:
 git checkout -b feat/exercicio-01-seu-nome

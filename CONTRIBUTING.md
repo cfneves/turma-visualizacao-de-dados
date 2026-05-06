@@ -66,8 +66,8 @@ Para **cada entrega** (exercício ou projeto), siga este fluxo:
 
 ```bash
 # Passo 1: Atualize seu repositório local
-git checkout main
-git pull origin main
+git checkout master
+git pull origin master
 
 # Passo 2: Crie uma branch para esta entrega
 git checkout -b feat/exercicio-01-seu-nome
@@ -119,7 +119,7 @@ git commit -m "data: adiciona dataset vendas_2024.csv"
 
 1. Após o `git push`, o terminal exibe um link direto — clique nele, ou acesse o repositório no GitHub
 2. Clique em **"Compare & pull request"** (aparece automaticamente após o push)
-3. Verifique que a base é `cfneves/turma-visualizacao-de-dados` → **`main`**
+3. Verifique que a base é `cfneves/turma-visualizacao-de-dados` → **`master`**
 4. Preencha o template do PR (título + checklist)
 5. Clique em **"Create pull request"**
 
@@ -137,14 +137,14 @@ Conflitos acontecem quando outro aluno enviou arquivos enquanto você trabalhava
 
 ```bash
 # 1. Traga as atualizações do repositório
-git checkout main
-git pull origin main
+git checkout master
+git pull origin master
 
 # 2. Volte para a branch da sua entrega
 git checkout feat/seu-exercicio
 
-# 3. Aplique as mudanças do main na sua branch
-git rebase main
+# 3. Aplique as mudanças do master na sua branch
+git rebase master
 ```
 
 Se aparecer um conflito num arquivo de outro aluno (ex: `alunos/maria_helena/README.md`):
@@ -152,7 +152,7 @@ Se aparecer um conflito num arquivo de outro aluno (ex: `alunos/maria_helena/REA
 ```bash
 # Abra o arquivo conflitado e remova os marcadores:
 # <<<<<<< HEAD
-# (versão do main — MANTENHA ESTA)
+# (versão do master — MANTENHA ESTA)
 # =======
 # (versão da sua branch — REMOVA ESTA PARTE)
 # >>>>>>> sua-branch
@@ -165,7 +165,7 @@ git rebase --continue
 git push origin feat/seu-exercicio --force-with-lease
 ```
 
-**Regra de ouro:** em conflito com arquivo de outro aluno, **sempre mantenha a versão do `main`** (a versão do repositório original).
+**Regra de ouro:** em conflito com arquivo de outro aluno, **sempre mantenha a versão do `master`** (a versão do repositório original).
 
 ---
 
