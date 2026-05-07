@@ -84,29 +84,27 @@ while True:
         print("Pedidos em aberto\n")
 
         for pedido in pedidos:
-            print(f"SKU: {pedido['sku']}")
-            print(f"Quantidade: {pedido['quantidade']}")
-            print(f"Situação: {pedido['situacao']}")
+            if pedido['situacao'] == "OK":
 
-    elif opcao == 5:
-        print("Faturando Pedido\n")
-        
-        for pedido in pedidos:
-            for produto in produtos:
-                if produto["sku"] == pedido["sku"]:
+                for produto in produtos:
+                    if produto['sku'] == pedido['sku']:
 
-                    if pedido["quantidade"] <= produto["estoque"]:
-                        produto["estoque"] -= pedido["quantidade"]
-                        print(f"Pedido {pedido['sku']} faturado!")
-                    else:
-                        print(f"Sem estoque para o pedido {pedido['sku']}")
+                        valor_item = pedido['quantidade'] * produto['valor']
 
-                    break
+                        produto['estoque'] -= pedido['quantidade']
+
+                        print(f"Produto: {produto['nome']}")
+                        print(f"Quantidade: {pedido['quantidade']}")
+                        print(f"Valor do Pedido: {valor_item}\n")
+
+            else:
+                print(f"Produto sem estoque")
+
+        print(f"Valor total do pedido: {valor_total}")
 
         pedidos.clear()
 
         break
-
 
     elif opcao == 6:
         print("Encerrando")
