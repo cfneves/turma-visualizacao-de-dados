@@ -20,20 +20,17 @@ Bem-vindo! Este guia explica como enviar seus trabalhos corretamente e manter o 
 
 Faça isso **uma única vez** no início do curso.
 
-```bash
-# Fork o repositório pelo GitHub (botão "Fork" no canto superior direito)
+> **Pré-requisito:** aceite o convite de colaborador que o professor enviou para o seu e-mail do GitHub.
 
-# Clone o SEU fork (substitua SEU_USUARIO)
-git clone https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
+```bash
+# Clone o repositório diretamente (você já é colaborador):
+git clone https://github.com/cfneves/turma-visualizacao-de-dados.git
 cd turma-visualizacao-de-dados
 
-# Adicione o repositório original como "upstream"
-git remote add upstream https://github.com/cfneves/turma-visualizacao-de-dados.git
-
-# Confirme que os dois remotes estão configurados
+# Confirme o remote configurado:
 git remote -v
-# origin    https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git (fetch)
-# upstream  https://github.com/cfneves/turma-visualizacao-de-dados.git (fetch)
+# origin  https://github.com/cfneves/turma-visualizacao-de-dados.git (fetch)
+# origin  https://github.com/cfneves/turma-visualizacao-de-dados.git (push)
 ```
 
 ---
@@ -68,10 +65,9 @@ Edite o `README.md` com suas informações reais — esse arquivo é o seu cart�
 Para **cada entrega** (exercício ou projeto), siga este fluxo:
 
 ```bash
-# Passo 1: Sincronize com o repositório original
-git fetch upstream
+# Passo 1: Atualize seu repositório local
 git checkout master
-git merge upstream/master
+git pull origin master
 
 # Passo 2: Crie uma branch para esta entrega
 git checkout -b feat/exercicio-01-seu-nome
@@ -83,10 +79,11 @@ git checkout -b feat/exercicio-01-seu-nome
 git add alunos/seu-nome/
 git commit -m "feat(alunos): adiciona exercício 01 - Seu Nome"
 
-# Passo 5: Push para o seu fork
+# Passo 5: Envie a branch
 git push origin feat/exercicio-01-seu-nome
 
 # Passo 6: Abra o Pull Request no GitHub
+# (o terminal exibe o link direto após o push)
 ```
 
 ---
@@ -120,9 +117,9 @@ git commit -m "data: adiciona dataset vendas_2024.csv"
 
 ## 5. Abrindo um Pull Request
 
-1. Acesse seu fork no GitHub
+1. Após o `git push`, o terminal exibe um link direto — clique nele, ou acesse o repositório no GitHub
 2. Clique em **"Compare & pull request"** (aparece automaticamente após o push)
-3. Verifique que a base é `cfneves/turma-visualizacao-de-dados` → **`master`** (não `main`)
+3. Verifique que a base é `cfneves/turma-visualizacao-de-dados` → **`master`**
 4. Preencha o template do PR (título + checklist)
 5. Clique em **"Create pull request"**
 
@@ -136,22 +133,17 @@ feat(alunos): adiciona [exercício/projeto] - Seu Nome
 
 ## 6. Resolvendo Conflitos
 
-Conflitos acontecem quando outro aluno enviou arquivos depois que você criou o fork. É normal — não é erro seu.
+Conflitos acontecem quando outro aluno enviou arquivos enquanto você trabalhava na sua branch. É normal — não é erro seu.
 
 ```bash
-# 1. Traga as atualizações do repositório original
-git fetch upstream
-
-# 2. Vá para sua branch principal
+# 1. Traga as atualizações do repositório
 git checkout master
+git pull origin master
 
-# 3. Integre as mudanças
-git merge upstream/master
-
-# 4. Volte para a branch da sua entrega
+# 2. Volte para a branch da sua entrega
 git checkout feat/seu-exercicio
 
-# 5. Aplique as mudanças do master na sua branch
+# 3. Aplique as mudanças do master na sua branch
 git rebase master
 ```
 
@@ -160,20 +152,20 @@ Se aparecer um conflito num arquivo de outro aluno (ex: `alunos/maria_helena/REA
 ```bash
 # Abra o arquivo conflitado e remova os marcadores:
 # <<<<<<< HEAD
-# (versão do upstream — MANTENHA ESTA)
+# (versão do master — MANTENHA ESTA)
 # =======
-# (versão do seu fork — REMOVA ESTA PARTE)
+# (versão da sua branch — REMOVA ESTA PARTE)
 # >>>>>>> sua-branch
 
 # Após resolver:
 git add alunos/nome-do-colega/README.md
 git rebase --continue
 
-# Atualize seu fork remoto
+# Atualize a branch remota
 git push origin feat/seu-exercicio --force-with-lease
 ```
 
-**Regra de ouro:** em conflito com arquivo de outro aluno, **sempre mantenha a versão do upstream** (a versão do repositório original).
+**Regra de ouro:** em conflito com arquivo de outro aluno, **sempre mantenha a versão do `master`** (a versão do repositório original).
 
 ---
 

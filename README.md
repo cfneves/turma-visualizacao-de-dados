@@ -167,123 +167,83 @@ _Sua pasta ainda não aparece aqui? Siga o [guia de contribuição](./CONTRIBUTI
 
 ---
 
-## Como Participar — Fork e Clone
+## Como Participar
 
-Você vai usar **os dois**: fork e clone. Eles fazem coisas diferentes e se complementam. Entenda cada um antes de combiná-los.
+O fluxo é simples: **clone → branch → trabalhe → envie → PR**. Sem fork, sem configuração extra.
 
----
-
-### O que é Fork
-
-**Fork** é uma cópia do repositório criada **dentro da sua conta no GitHub** (na nuvem). Você faz isso diretamente pelo site do GitHub — sem precisar do terminal.
-
-**Quando usar:** quando você não tem permissão de escrita no repositório original (como é o caso aqui — somente o professor pode escrever diretamente).
-
-**Como fazer:**
-
-1. Acesse [github.com/cfneves/turma-visualizacao-de-dados](https://github.com/cfneves/turma-visualizacao-de-dados)
-2. Clique no botão **Fork** no canto superior direito
-3. Confirme clicando em **Create fork**
-
-Resultado: agora existe uma cópia em `github.com/SEU_USUARIO/turma-visualizacao-de-dados` — essa cópia é **sua** e você pode fazer o que quiser nela.
-
-> O fork fica no GitHub. Você ainda não tem nada no seu computador.
+> **Pré-requisito:** O professor adiciona você como colaborador do repositório. Aceite o convite que chegará no seu e-mail cadastrado no GitHub antes de começar.
 
 ---
 
 ### O que é Clone
 
-**Clone** é o ato de baixar um repositório para o **seu computador**. A partir daí você trabalha localmente — no VS Code, Jupyter, ou qualquer editor.
-
-**Quando usar:** sempre que quiser trabalhar nos arquivos localmente, na sua máquina.
-
-**Como fazer:**
-
-```bash
-# No terminal, dentro da pasta onde quer salvar o projeto:
-git clone https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
-cd turma-visualizacao-de-dados
-```
-
-> ⚠️ Clone sempre o SEU fork (`SEU_USUARIO`), nunca o do professor (`cfneves`). Se clonar o do professor, você não terá permissão para enviar suas alterações.
-
-Resultado: o repositório agora existe no seu computador. Qualquer alteração que você fizer precisa ser enviada de volta ao GitHub com `git push`.
+**Clone** é baixar o repositório para o **seu computador**. Você trabalha localmente — no VS Code, Jupyter, ou qualquer editor — e depois envia as alterações de volta ao GitHub.
 
 ---
 
-### Fork vs Clone — comparação rápida
+### O que é Branch
 
-| | Fork | Clone |
-|--|------|-------|
-| **Onde acontece** | No GitHub (navegador) | No terminal (sua máquina) |
-| **Onde fica o resultado** | Na sua conta do GitHub | Na sua pasta local |
-| **Para que serve** | Criar sua cópia com permissão de envio | Trabalhar localmente nos arquivos |
-| **Frequência** | Uma vez por repositório | Uma vez por máquina |
+**Branch** é uma linha de trabalho isolada dentro do mesmo repositório. Você cria uma branch para cada entrega, trabalha nela sem afetar o restante do projeto, e abre um PR para integrar quando estiver pronto.
+
+```
+master  ────────────────────────────────────►  (protegida — nunca altere diretamente)
+            │
+            └─── feat/exercicio-01-seu-nome  ──►  (sua branch de entrega)
+```
 
 ---
 
-### Fluxo completo — os dois juntos
-
-```
-Repositório do professor          Seu GitHub               Seu computador
-github.com/cfneves/...    →fork→  github.com/SEU_USUARIO/  →clone→  pasta local
-                                         ↑                              ↓
-                                         └──────── push ────────────────┘
-                          ←PR←   github.com/SEU_USUARIO/
-```
-
-**1. Fork — faça UMA vez**
-
-Acesse [github.com/cfneves/turma-visualizacao-de-dados](https://github.com/cfneves/turma-visualizacao-de-dados) e clique no botão **Fork** (canto superior direito). Isso cria uma cópia do repositório na sua conta.
-
-**2. Clone — faça UMA vez por máquina**
-
-Copie o endereço do SEU fork (não o do professor) e rode no terminal:
+### Configuração inicial — faça UMA vez por máquina
 
 ```bash
-git clone https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
+# Clone o repositório diretamente (você já é colaborador):
+git clone https://github.com/cfneves/turma-visualizacao-de-dados.git
 cd turma-visualizacao-de-dados
-```
 
-> ⚠️ Atenção: clone sempre o SEU fork (`SEU_USUARIO`), não o repositório do professor (`cfneves`). Se clonar o do professor, não terá permissão para enviar alterações.
-
-**3. Conecte ao repositório original — faça UMA vez**
-
-Isso permite que você atualize seu fork quando o professor adicionar novos materiais:
-
-```bash
-git remote add upstream https://github.com/cfneves/turma-visualizacao-de-dados.git
-
-# Confirme que os dois endereços estão configurados:
-git remote -v
-# origin    https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
-# upstream  https://github.com/cfneves/turma-visualizacao-de-dados.git
-```
-
-**4. Crie sua pasta de aluno — faça UMA vez**
-
-```bash
+# Crie sua pasta de aluno:
 mkdir alunos/nome-sobrenome
 cp alunos/TEMPLATE_README.md alunos/nome-sobrenome/README.md
 ```
 
-**5. Para cada entrega: edite → commit → push → PR**
+Edite o `README.md` com suas informações — esse arquivo é o seu portfólio público.
+
+---
+
+### Fluxo de entrega — repita a cada exercício ou projeto
 
 ```bash
-# Antes de qualquer entrega, atualize seu fork com o conteúdo mais recente:
-git fetch upstream
-git merge upstream/master
+# 1. Atualize seu repositório local com as novidades do professor:
+git checkout master
+git pull origin master
 
-# Faça suas alterações dentro de alunos/seu-nome/
-# Depois envie:
-git add alunos/seu-nome/
+# 2. Crie uma branch para esta entrega:
+git checkout -b feat/exercicio-01-seu-nome
+
+# 3. Trabalhe dentro da sua pasta:
+#    alunos/nome-sobrenome/
+
+# 4. Salve e envie:
+git add alunos/nome-sobrenome/
 git commit -m "feat(alunos): adiciona exercício 01 - Seu Nome"
-git push origin main
+git push origin feat/exercicio-01-seu-nome
 
-# Por fim, abra um Pull Request no GitHub
+# 5. Abra o Pull Request no GitHub (veja o link que aparece no terminal)
 ```
 
-Consulte o [CONTRIBUTING.md](./CONTRIBUTING.md) para o guia completo, incluindo como resolver conflitos.
+---
+
+### Resumo visual
+
+```
+GitHub (remoto)                    Seu computador (local)
+cfneves/turma-...   ─clone─►  pasta local
+      ▲                              │
+      │                    edita em alunos/seu-nome/
+      │                              │
+      └────── push + PR ─────────────┘
+```
+
+Consulte o [CONTRIBUTING.md](./CONTRIBUTING.md) para o guia completo, convenção de commits e como resolver conflitos.
 
 ---
 
