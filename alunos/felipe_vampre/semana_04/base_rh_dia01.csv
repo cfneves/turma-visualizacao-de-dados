@@ -17,7 +17,7 @@
 16;Maria Julia das Neves;Produção;Técnico;11440.3;2025-04-18;M;38;Solteiro;Ativo;2025;4;2;1.1;1 a 3 anos
 17;Luigi Santos;Financeiro;Gerente;8988.88;2016-12-10;F;32;Solteiro;Ativo;2016;12;4;9.4;Mais de 5 anos
 18;Srta. Giovanna Pinto;Produção;Coordenador;2503.83;2025-04-14;F;35;Viúvo;Inativo;2025;4;2;1.1;1 a 3 anos
-19;Bernardo Cavalcanti;TI;Coordenador;6088.45;2020-02-06;F;59;Solteiro;Ativo;2020;2;1;6.3;Mais de 5 anos
+19;Bernardo Cavalcanti;TI;Coordenador;6088.45;2020-02-06;F;59;Solteiro;Ativo;2020;2;1;6.2;Mais de 5 anos
 20;Joaquim da Mota;Logística;Assistente;8922.49;2019-12-29;F;54;Divorciado;Inativo;2019;12;4;6.4;Mais de 5 anos
 21;João Felipe da Cunha;Produção;Assistente;14015.44;2016-09-15;M;42;Viúvo;Inativo;2016;9;3;9.6;Mais de 5 anos
 22;Marcela Mendes;TI;Técnico;4336.75;2017-04-29;M;21;Solteiro;Inativo;2017;4;2;9.0;Mais de 5 anos
@@ -46,12 +46,12 @@
 45;Sophie Vieira;Financeiro;Assistente;2763.99;2024-12-28;F;35;Solteiro;Ativo;2024;12;4;1.4;1 a 3 anos
 46;Murilo da Paz;Logística;Analista;2765.1;2018-02-09;M;62;Viúvo;Ativo;2018;2;1;8.2;Mais de 5 anos
 47;Sra. Luiza Barros;Logística;Analista;10035.11;2017-11-09;F;58;Divorciado;Ativo;2017;11;4;8.5;Mais de 5 anos
-48;Maitê da Mota;Vendas;Coordenador;7727.77;2018-02-05;M;56;Casado;Ativo;2018;2;1;8.3;Mais de 5 anos
+48;Maitê da Mota;Vendas;Coordenador;7727.77;2018-02-05;M;56;Casado;Ativo;2018;2;1;8.2;Mais de 5 anos
 49;João Miguel Teixeira;RH;Coordenador;8396.11;2016-06-04;M;48;Solteiro;Ativo;2016;6;2;9.9;Mais de 5 anos
 50;Benjamin da Costa;TI;Gerente;9766.01;2024-04-27;M;51;Divorciado;Inativo;2024;4;2;2.0;1 a 3 anos
 51;Esther Nunes;Vendas;Coordenador;6506.85;2016-01-19;F;30;Solteiro;Inativo;2016;1;1;10.3;Mais de 5 anos
 52;Lorenzo Campos;Produção;Gerente;10022.05;2017-12-08;M;27;Casado;Ativo;2017;12;4;8.4;Mais de 5 anos
-53;Bruno Monteiro;Logística;Coordenador;12624.23;2023-04-19;M;52;Solteiro;Inativo;2023;4;2;3.1;3 a 5 anos
+53;Bruno Monteiro;Logística;Coordenador;12624.23;2023-04-19;M;52;Solteiro;Inativo;2023;4;2;3.0;3 a 5 anos
 54;Caroline Freitas;Produção;Analista;4529.45;2020-09-01;F;18;Viúvo;Inativo;2020;9;3;5.7;Mais de 5 anos
 55;Cauã Monteiro;Produção;Coordenador;6495.75;2019-10-07;F;56;Viúvo;Inativo;2019;10;4;6.6;Mais de 5 anos
 56;Maria Julia Araújo;TI;Assistente;12478.91;2021-03-25;M;53;Viúvo;Ativo;2021;3;1;5.1;Mais de 5 anos
@@ -92,7 +92,7 @@
 91;Dra. Luiza Sales;RH;Técnico;5074.29;2020-09-10;F;23;Solteiro;Inativo;2020;9;3;5.7;Mais de 5 anos
 92;Arthur Moura;Vendas;Coordenador;4435.83;2024-07-02;M;18;Divorciado;Ativo;2024;7;3;1.8;1 a 3 anos
 93;Calebe Campos;Vendas;Técnico;2417.15;2023-07-29;F;64;Viúvo;Inativo;2023;7;3;2.8;1 a 3 anos
-94;Júlia Cardoso;TI;Coordenador;13409.89;2018-04-19;M;24;Divorciado;Inativo;2018;4;2;8.1;Mais de 5 anos
+94;Júlia Cardoso;TI;Coordenador;13409.89;2018-04-19;M;24;Divorciado;Inativo;2018;4;2;8.0;Mais de 5 anos
 95;Kevin Ferreira;RH;Coordenador;2523.3;2022-08-09;F;35;Casado;Inativo;2022;8;3;3.7;3 a 5 anos
 96;Yuri Porto;RH;Técnico;6330.58;2018-08-20;F;39;Casado;Ativo;2018;8;3;7.7;Mais de 5 anos
 97;Ana Fogaça;Vendas;Gerente;2425.39;2022-03-25;M;37;Viúvo;Ativo;2022;3;1;4.1;3 a 5 anos
@@ -105,7 +105,7 @@
 104;Ana Júlia da Luz;RH;Técnico;7329.99;2024-01-13;M;64;Viúvo;Inativo;2024;1;1;2.3;1 a 3 anos
 105;Fernanda Almeida;Produção;Gerente;14948.18;2017-05-17;M;20;Solteiro;Inativo;2017;5;2;9.0;Mais de 5 anos
 106;Dr. Diego Campos;RH;Coordenador;14703.7;2020-12-25;F;52;Solteiro;Ativo;2020;12;4;5.4;Mais de 5 anos
-107;Isadora Teixeira;Financeiro;Analista;2731.04;2016-10-18;F;40;Viúvo;Ativo;2016;10;4;9.6;Mais de 5 anos
+107;Isadora Teixeira;Financeiro;Analista;2731.04;2016-10-18;F;40;Viúvo;Ativo;2016;10;4;9.5;Mais de 5 anos
 108;Giovanna Mendes;Vendas;Técnico;2210.27;2025-04-29;M;36;Viúvo;Inativo;2025;4;2;1.0;1 a 3 anos
 109;Dra. Maria Alice Oliveira;TI;Técnico;12258.99;2016-10-20;F;63;Divorciado;Ativo;2016;10;4;9.5;Mais de 5 anos
 110;Mirella Lima;Financeiro;Assistente;4119.5;2017-11-13;M;47;Casado;Inativo;2017;11;4;8.5;Mais de 5 anos
@@ -164,7 +164,7 @@
 163;Vicente Souza;RH;Gerente;13577.05;2019-07-14;M;38;Divorciado;Inativo;2019;7;3;6.8;Mais de 5 anos
 164;Sr. Benício Ribeiro;RH;Técnico;8194.41;2016-10-12;M;28;Divorciado;Inativo;2016;10;4;9.6;Mais de 5 anos
 165;Alexia da Cruz;RH;Analista;2720.29;2016-01-19;F;54;Viúvo;Ativo;2016;1;1;10.3;Mais de 5 anos
-166;Diego Sales;Vendas;Técnico;14594.93;2023-03-14;M;40;Casado;Ativo;2023;3;1;3.2;3 a 5 anos
+166;Diego Sales;Vendas;Técnico;14594.93;2023-03-14;M;40;Casado;Ativo;2023;3;1;3.1;3 a 5 anos
 167;Gustavo Henrique Rocha;Logística;Coordenador;7857.82;2015-11-14;F;47;Viúvo;Ativo;2015;11;4;10.5;Mais de 5 anos
 168;Marcela Cavalcanti;TI;Técnico;4142.55;2016-08-05;F;50;Viúvo;Ativo;2016;8;3;9.8;Mais de 5 anos
 169;Henrique Lopes;Logística;Coordenador;5878.06;2022-04-24;M;26;Divorciado;Ativo;2022;4;2;4.0;3 a 5 anos
@@ -187,19 +187,19 @@
 186;Carlos Eduardo Nunes;Vendas;Coordenador;4563.36;2018-05-25;M;56;Solteiro;Ativo;2018;5;2;8.0;Mais de 5 anos
 187;Isabel Barros;Logística;Assistente;5867.69;2023-09-09;M;46;Casado;Ativo;2023;9;3;2.7;1 a 3 anos
 188;Ana Júlia Cardoso;TI;Gerente;8738.63;2021-05-30;M;52;Viúvo;Ativo;2021;5;2;4.9;3 a 5 anos
-189;João Pereira;Produção;Técnico;8151.56;2016-09-12;M;28;Casado;Inativo;2016;9;3;9.7;Mais de 5 anos
+189;João Pereira;Produção;Técnico;8151.56;2016-09-12;M;28;Casado;Inativo;2016;9;3;9.6;Mais de 5 anos
 190;Levi Freitas;Vendas;Assistente;3011.79;2017-11-04;M;22;Viúvo;Inativo;2017;11;4;8.5;Mais de 5 anos
 191;Bruno Jesus;RH;Técnico;7224.6;2021-06-18;F;31;Solteiro;Ativo;2021;6;2;4.9;3 a 5 anos
 192;Laís Rodrigues;Financeiro;Técnico;3718.9;2021-11-19;F;64;Viúvo;Ativo;2021;11;4;4.5;3 a 5 anos
 193;Augusto Dias;Financeiro;Gerente;9930.1;2016-05-20;F;42;Viúvo;Ativo;2016;5;2;10.0;Mais de 5 anos
 194;Enzo das Neves;Logística;Técnico;7686.01;2024-10-02;F;30;Solteiro;Inativo;2024;10;4;1.6;1 a 3 anos
-195;Kaique Ramos;Financeiro;Gerente;12459.69;2024-11-24;M;27;Solteiro;Inativo;2024;11;4;1.5;1 a 3 anos
+195;Kaique Ramos;Financeiro;Gerente;12459.69;2024-11-24;M;27;Solteiro;Inativo;2024;11;4;1.4;1 a 3 anos
 196;Anthony Ferreira;Logística;Gerente;4996.47;2022-02-20;F;40;Divorciado;Inativo;2022;2;1;4.2;3 a 5 anos
 197;Maitê Gomes;TI;Assistente;2926.46;2019-11-09;M;20;Solteiro;Ativo;2019;11;4;6.5;Mais de 5 anos
 198;Dra. Maria Alice Pires;Logística;Assistente;10085.14;2022-11-19;M;19;Solteiro;Ativo;2022;11;4;3.5;3 a 5 anos
 199;Alice Gonçalves;Vendas;Coordenador;14561.17;2021-05-11;M;29;Casado;Ativo;2021;5;2;5.0;Mais de 5 anos
 200;Sra. Bárbara Correia;Produção;Assistente;2248.04;2020-03-24;M;30;Solteiro;Inativo;2020;3;1;6.1;Mais de 5 anos
-201;Diego Nunes;Produção;Analista;13768.79;2025-03-13;M;18;Solteiro;Inativo;2025;3;1;1.2;1 a 3 anos
+201;Diego Nunes;Produção;Analista;13768.79;2025-03-13;M;18;Solteiro;Inativo;2025;3;1;1.1;1 a 3 anos
 202;Eloah Almeida;RH;Coordenador;7814.48;2020-04-13;F;22;Divorciado;Ativo;2020;4;2;6.1;Mais de 5 anos
 203;Isabelly Lopes;Vendas;Assistente;5096.17;2022-02-21;M;55;Viúvo;Ativo;2022;2;1;4.2;3 a 5 anos
 204;Isis Cavalcanti;Financeiro;Assistente;6711.24;2019-05-23;F;45;Casado;Inativo;2019;5;2;7.0;Mais de 5 anos
@@ -218,7 +218,7 @@
 217;Yago Farias;Produção;Analista;11439.23;2018-12-09;M;41;Divorciado;Inativo;2018;12;4;7.4;Mais de 5 anos
 218;Laís Aragão;TI;Técnico;12537.3;2015-12-05;M;57;Divorciado;Inativo;2015;12;4;10.4;Mais de 5 anos
 219;Cauã Ramos;Financeiro;Técnico;14918.19;2024-06-30;F;63;Casado;Inativo;2024;6;2;1.9;1 a 3 anos
-220;Raul da Cunha;Logística;Coordenador;12500.4;2020-07-01;M;63;Divorciado;Inativo;2020;7;3;5.9;Mais de 5 anos
+220;Raul da Cunha;Logística;Coordenador;12500.4;2020-07-01;M;63;Divorciado;Inativo;2020;7;3;5.8;Mais de 5 anos
 221;Maitê da Luz;Vendas;Analista;3258.67;2023-07-01;F;22;Viúvo;Inativo;2023;7;3;2.9;1 a 3 anos
 222;Sra. Marina da Mota;Produção;Gerente;13608.9;2019-05-31;F;31;Viúvo;Ativo;2019;5;2;6.9;Mais de 5 anos
 223;Larissa Barbosa;Vendas;Coordenador;13272.21;2024-08-07;M;37;Solteiro;Inativo;2024;8;3;1.7;1 a 3 anos
@@ -233,7 +233,7 @@
 232;Ana Júlia Melo;Vendas;Gerente;11141.24;2016-08-30;F;30;Divorciado;Ativo;2016;8;3;9.7;Mais de 5 anos
 233;Guilherme Rocha;Vendas;Gerente;9095.18;2023-03-23;M;18;Casado;Ativo;2023;3;1;3.1;3 a 5 anos
 234;Clara Cunha;Logística;Técnico;11135.83;2022-03-08;F;64;Divorciado;Ativo;2022;3;1;4.2;3 a 5 anos
-235;Srta. Laura Correia;RH;Assistente;12592.75;2023-05-26;F;37;Solteiro;Inativo;2023;5;2;3.0;3 a 5 anos
+235;Srta. Laura Correia;RH;Assistente;12592.75;2023-05-26;F;37;Solteiro;Inativo;2023;5;2;2.9;1 a 3 anos
 236;Joaquim da Paz;TI;Técnico;2013.79;2021-12-11;M;49;Viúvo;Ativo;2021;12;4;4.4;3 a 5 anos
 237;Bernardo Souza;Vendas;Coordenador;9866.62;2018-07-21;F;32;Divorciado;Ativo;2018;7;3;7.8;Mais de 5 anos
 238;Sra. Marina Novaes;RH;Gerente;5987.51;2017-12-08;F;37;Solteiro;Ativo;2017;12;4;8.4;Mais de 5 anos
@@ -257,8 +257,8 @@
 256;Rodrigo da Costa;Financeiro;Técnico;6806.84;2024-09-17;F;38;Casado;Inativo;2024;9;3;1.6;1 a 3 anos
 257;Ana Dias;RH;Coordenador;5649.55;2021-10-09;F;34;Casado;Ativo;2021;10;4;4.6;3 a 5 anos
 258;Sr. Thales Ferreira;Vendas;Gerente;9749.29;2016-02-22;M;20;Divorciado;Inativo;2016;2;1;10.2;Mais de 5 anos
-259;João Miguel Santos;RH;Analista;10236.2;2024-10-18;M;46;Viúvo;Inativo;2024;10;4;1.6;1 a 3 anos
-260;Maria Julia Alves;Produção;Coordenador;8100.0;2023-11-25;M;55;Casado;Ativo;2023;11;4;2.5;1 a 3 anos
+259;João Miguel Santos;RH;Analista;10236.2;2024-10-18;M;46;Viúvo;Inativo;2024;10;4;1.5;1 a 3 anos
+260;Maria Julia Alves;Produção;Coordenador;8100.0;2023-11-25;M;55;Casado;Ativo;2023;11;4;2.4;1 a 3 anos
 261;Sarah da Mota;RH;Analista;6452.88;2023-09-10;M;65;Casado;Ativo;2023;9;3;2.7;1 a 3 anos
 262;Isabelly da Conceição;Logística;Assistente;13707.53;2015-12-14;M;62;Solteiro;Inativo;2015;12;4;10.4;Mais de 5 anos
 263;Dra. Maitê Gonçalves;Produção;Assistente;3932.61;2024-06-04;F;52;Divorciado;Ativo;2024;6;2;1.9;1 a 3 anos
@@ -286,13 +286,13 @@
 285;Marina Nogueira;Produção;Técnico;7214.06;2022-11-15;M;47;Divorciado;Ativo;2022;11;4;3.5;3 a 5 anos
 286;Melissa Dias;TI;Analista;2348.94;2023-06-29;F;44;Casado;Inativo;2023;6;2;2.9;1 a 3 anos
 287;Carlos Eduardo Jesus;Logística;Assistente;11209.82;2018-12-16;M;50;Casado;Ativo;2018;12;4;7.4;Mais de 5 anos
-288;Calebe Dias;TI;Analista;8782.88;2020-12-30;F;58;Solteiro;Ativo;2020;12;4;5.4;Mais de 5 anos
+288;Calebe Dias;TI;Analista;8782.88;2020-12-30;F;58;Solteiro;Ativo;2020;12;4;5.3;Mais de 5 anos
 289;Luigi da Costa;Vendas;Analista;11895.89;2020-03-09;M;43;Divorciado;Ativo;2020;3;1;6.2;Mais de 5 anos
 290;Joana Pinto;Logística;Coordenador;10047.87;2025-08-21;F;39;Casado;Ativo;2025;8;3;0.7;Menos de 1 ano
 291;Dra. Isis Lopes;RH;Coordenador;11550.46;2023-04-03;M;25;Divorciado;Inativo;2023;4;2;3.1;3 a 5 anos
 292;Anthony Novaes;TI;Analista;7603.57;2022-04-14;F;18;Viúvo;Ativo;2022;4;2;4.1;3 a 5 anos
 293;Dr. Bruno da Cunha;TI;Técnico;11386.4;2022-07-26;M;26;Viúvo;Inativo;2022;7;3;3.8;3 a 5 anos
-294;Elisa da Mota;RH;Assistente;14228.11;2023-08-07;M;32;Divorciado;Inativo;2023;8;3;2.8;1 a 3 anos
+294;Elisa da Mota;RH;Assistente;14228.11;2023-08-07;M;32;Divorciado;Inativo;2023;8;3;2.7;1 a 3 anos
 295;Kamilly Moraes;TI;Assistente;12167.79;2025-07-27;F;57;Casado;Ativo;2025;7;3;0.8;Menos de 1 ano
 296;Pedro Miguel Caldeira;Logística;Coordenador;3870.95;2019-10-01;F;58;Viúvo;Ativo;2019;10;4;6.6;Mais de 5 anos
 297;Augusto Santos;TI;Gerente;8237.8;2021-08-26;M;45;Divorciado;Inativo;2021;8;3;4.7;3 a 5 anos
@@ -406,7 +406,7 @@
 405;Felipe Monteiro;Produção;Assistente;14317.94;2018-05-30;M;45;Solteiro;Ativo;2018;5;2;7.9;Mais de 5 anos
 406;Mirella da Costa;Financeiro;Técnico;3672.14;2022-07-20;F;29;Solteiro;Inativo;2022;7;3;3.8;3 a 5 anos
 407;Luiz Fernando da Mota;RH;Analista;9206.08;2020-02-03;M;36;Viúvo;Ativo;2020;2;1;6.3;Mais de 5 anos
-408;Gabriel Pereira;Vendas;Assistente;10052.23;2016-08-06;M;48;Casado;Inativo;2016;8;3;9.8;Mais de 5 anos
+408;Gabriel Pereira;Vendas;Assistente;10052.23;2016-08-06;M;48;Casado;Inativo;2016;8;3;9.7;Mais de 5 anos
 409;Thales das Neves;Financeiro;Assistente;10233.37;2019-05-07;F;40;Solteiro;Ativo;2019;5;2;7.0;Mais de 5 anos
 410;Sra. Elisa Duarte;Financeiro;Coordenador;3956.06;2020-08-07;F;48;Divorciado;Ativo;2020;8;3;5.7;Mais de 5 anos
 411;Miguel Araújo;TI;Técnico;11541.38;2024-12-14;F;43;Solteiro;Inativo;2024;12;4;1.4;1 a 3 anos
@@ -544,15 +544,15 @@
 543;Luiz Miguel Fogaça;RH;Coordenador;12069.43;2016-12-05;M;27;Casado;Ativo;2016;12;4;9.4;Mais de 5 anos
 544;Dra. Julia Cunha;Produção;Assistente;7777.4;2015-10-27;F;34;Divorciado;Inativo;2015;10;4;10.5;Mais de 5 anos
 545;Rebeca Oliveira;Logística;Coordenador;8130.18;2018-01-26;M;51;Casado;Ativo;2018;1;1;8.3;Mais de 5 anos
-546;Luiz Henrique Nogueira;Financeiro;Gerente;8791.54;2023-07-02;M;32;Solteiro;Ativo;2023;7;3;2.9;1 a 3 anos
+546;Luiz Henrique Nogueira;Financeiro;Gerente;8791.54;2023-07-02;M;32;Solteiro;Ativo;2023;7;3;2.8;1 a 3 anos
 547;Dra. Ana Julia Rocha;TI;Coordenador;7556.46;2018-01-21;M;48;Divorciado;Ativo;2018;1;1;8.3;Mais de 5 anos
 548;Theo Nunes;RH;Coordenador;3694.36;2019-11-08;F;64;Solteiro;Inativo;2019;11;4;6.5;Mais de 5 anos
 549;Ryan Cunha;Vendas;Coordenador;12503.7;2018-08-13;M;32;Solteiro;Ativo;2018;8;3;7.7;Mais de 5 anos
 550;Maria Vitória Fogaça;Vendas;Coordenador;11642.05;2022-01-22;F;38;Viúvo;Inativo;2022;1;1;4.3;3 a 5 anos
-551;Marcela Silva;Financeiro;Gerente;4788.38;2025-03-13;F;64;Casado;Inativo;2025;3;1;1.2;1 a 3 anos
+551;Marcela Silva;Financeiro;Gerente;4788.38;2025-03-13;F;64;Casado;Inativo;2025;3;1;1.1;1 a 3 anos
 552;Sofia Rezende;Logística;Assistente;9137.33;2019-09-06;F;28;Divorciado;Ativo;2019;9;3;6.7;Mais de 5 anos
 553;Alexia Araújo;Vendas;Assistente;3057.56;2016-10-03;F;65;Viúvo;Ativo;2016;10;4;9.6;Mais de 5 anos
-554;Lívia da Paz;Financeiro;Gerente;14062.84;2024-03-13;F;31;Divorciado;Ativo;2024;3;1;2.2;1 a 3 anos
+554;Lívia da Paz;Financeiro;Gerente;14062.84;2024-03-13;F;31;Divorciado;Ativo;2024;3;1;2.1;1 a 3 anos
 555;Eduardo Novaes;TI;Técnico;6373.89;2019-06-06;F;61;Casado;Inativo;2019;6;2;6.9;Mais de 5 anos
 556;Noah Viana;Vendas;Gerente;5214.63;2017-06-29;M;35;Divorciado;Inativo;2017;6;2;8.9;Mais de 5 anos
 557;Dra. Ana Laura Fogaça;Financeiro;Gerente;14873.06;2017-03-09;M;51;Solteiro;Inativo;2017;3;1;9.2;Mais de 5 anos
@@ -572,7 +572,7 @@
 571;Diego Viana;Financeiro;Assistente;14208.94;2019-12-28;F;56;Solteiro;Ativo;2019;12;4;6.4;Mais de 5 anos
 572;Dr. Samuel Oliveira;Logística;Coordenador;10141.8;2024-07-23;M;42;Casado;Inativo;2024;7;3;1.8;1 a 3 anos
 573;Sra. Ana Laura Cavalcanti;Financeiro;Coordenador;2469.29;2019-04-04;M;29;Casado;Ativo;2019;4;2;7.1;Mais de 5 anos
-574;Nicole Fernandes;Financeiro;Analista;11708.37;2018-10-19;M;32;Divorciado;Ativo;2018;10;4;7.6;Mais de 5 anos
+574;Nicole Fernandes;Financeiro;Analista;11708.37;2018-10-19;M;32;Divorciado;Ativo;2018;10;4;7.5;Mais de 5 anos
 575;Letícia Silva;Financeiro;Técnico;3899.09;2019-11-15;F;46;Solteiro;Ativo;2019;11;4;6.5;Mais de 5 anos
 576;Ana Vitória Melo;Vendas;Gerente;11907.22;2019-03-10;M;20;Divorciado;Inativo;2019;3;1;7.2;Mais de 5 anos
 577;Camila Cavalcanti;Financeiro;Assistente;10295.41;2022-12-05;F;18;Viúvo;Ativo;2022;12;4;3.4;3 a 5 anos
@@ -643,7 +643,7 @@
 642;Bianca Gomes;TI;Analista;6417.02;2025-07-21;M;23;Divorciado;Inativo;2025;7;3;0.8;Menos de 1 ano
 643;Levi Barbosa;RH;Assistente;8821.78;2017-05-16;F;65;Solteiro;Ativo;2017;5;2;9.0;Mais de 5 anos
 644;Benício Castro;TI;Coordenador;2948.85;2021-07-14;M;39;Divorciado;Ativo;2021;7;3;4.8;3 a 5 anos
-645;Marcos Vinicius Aragão;Produção;Técnico;11598.68;2023-09-13;F;54;Solteiro;Inativo;2023;9;3;2.7;1 a 3 anos
+645;Marcos Vinicius Aragão;Produção;Técnico;11598.68;2023-09-13;F;54;Solteiro;Inativo;2023;9;3;2.6;1 a 3 anos
 646;Marcelo Viana;TI;Coordenador;12970.54;2023-05-23;M;30;Solteiro;Inativo;2023;5;2;3.0;3 a 5 anos
 647;Davi Teixeira;RH;Gerente;6441.72;2016-06-14;M;50;Divorciado;Ativo;2016;6;2;9.9;Mais de 5 anos
 648;Bianca Barros;Logística;Coordenador;11072.08;2021-04-15;M;62;Viúvo;Ativo;2021;4;2;5.1;Mais de 5 anos
@@ -659,7 +659,7 @@
 658;Ana Carolina Caldeira;RH;Coordenador;6961.17;2021-09-19;M;50;Solteiro;Inativo;2021;9;3;4.6;3 a 5 anos
 659;Srta. Brenda da Luz;Logística;Técnico;11708.42;2021-02-18;F;50;Divorciado;Inativo;2021;2;1;5.2;Mais de 5 anos
 660;Bárbara da Cunha;Financeiro;Analista;14900.49;2019-04-04;M;45;Solteiro;Ativo;2019;4;2;7.1;Mais de 5 anos
-661;Luiz Miguel Farias;RH;Coordenador;11138.65;2015-12-31;M;60;Casado;Ativo;2015;12;4;10.4;Mais de 5 anos
+661;Luiz Miguel Farias;RH;Coordenador;11138.65;2015-12-31;M;60;Casado;Ativo;2015;12;4;10.3;Mais de 5 anos
 662;Vitor Souza;Financeiro;Analista;5336.99;2022-04-11;M;52;Divorciado;Inativo;2022;4;2;4.1;3 a 5 anos
 663;Pedro Miguel Gomes;Produção;Analista;7381.56;2015-11-03;F;20;Divorciado;Ativo;2015;11;4;10.5;Mais de 5 anos
 664;Benício Rodrigues;RH;Gerente;13142.67;2019-06-05;M;26;Divorciado;Inativo;2019;6;2;6.9;Mais de 5 anos
@@ -681,7 +681,7 @@
 680;Gabriela Nascimento;Vendas;Coordenador;6462.96;2018-03-08;F;30;Viúvo;Ativo;2018;3;1;8.2;Mais de 5 anos
 681;Maria Fernanda da Rosa;Produção;Coordenador;7949.4;2025-08-14;M;23;Solteiro;Ativo;2025;8;3;0.7;Menos de 1 ano
 682;Sarah Farias;RH;Assistente;2899.32;2021-12-07;F;29;Viúvo;Ativo;2021;12;4;4.4;3 a 5 anos
-683;Natália Azevedo;RH;Gerente;7632.69;2020-07-01;M;24;Viúvo;Inativo;2020;7;3;5.9;Mais de 5 anos
+683;Natália Azevedo;RH;Gerente;7632.69;2020-07-01;M;24;Viúvo;Inativo;2020;7;3;5.8;Mais de 5 anos
 684;Ryan da Mata;Logística;Gerente;13885.84;2025-08-01;F;41;Solteiro;Inativo;2025;8;3;0.8;Menos de 1 ano
 685;Olivia Peixoto;Logística;Técnico;7512.82;2023-01-03;M;38;Divorciado;Inativo;2023;1;1;3.3;3 a 5 anos
 686;Sra. Maria Vitória Pires;TI;Técnico;13628.87;2023-11-07;F;20;Viúvo;Ativo;2023;11;4;2.5;1 a 3 anos
@@ -830,7 +830,7 @@
 829;Pedro Lucas da Cunha;RH;Gerente;13283.77;2017-10-30;F;32;Viúvo;Inativo;2017;10;4;8.5;Mais de 5 anos
 830;Srta. Lorena Costa;Financeiro;Analista;10870.24;2020-07-10;F;25;Casado;Inativo;2020;7;3;5.8;Mais de 5 anos
 831;Renan Lima;Produção;Técnico;6100.12;2017-09-03;M;62;Solteiro;Ativo;2017;9;3;8.7;Mais de 5 anos
-832;Maria Luiza Rezende;Financeiro;Técnico;4530.85;2023-02-05;F;28;Solteiro;Inativo;2023;2;1;3.3;3 a 5 anos
+832;Maria Luiza Rezende;Financeiro;Técnico;4530.85;2023-02-05;F;28;Solteiro;Inativo;2023;2;1;3.2;3 a 5 anos
 833;Kevin Ferreira;Vendas;Assistente;7360.67;2023-01-20;M;55;Viúvo;Ativo;2023;1;1;3.3;3 a 5 anos
 834;Stella Caldeira;Produção;Gerente;10866.24;2020-12-10;M;30;Viúvo;Ativo;2020;12;4;5.4;Mais de 5 anos
 835;Beatriz Souza;TI;Analista;9164.28;2025-09-01;M;64;Divorciado;Ativo;2025;9;3;0.7;Menos de 1 ano
@@ -965,7 +965,7 @@
 964;Kaique Melo;RH;Técnico;2567.76;2019-05-22;F;41;Casado;Ativo;2019;5;2;7.0;Mais de 5 anos
 965;Srta. Luana Nunes;Financeiro;Analista;6742.77;2024-02-13;M;20;Casado;Inativo;2024;2;1;2.2;1 a 3 anos
 966;Srta. Isadora Alves;RH;Técnico;9592.61;2024-12-09;M;22;Viúvo;Inativo;2024;12;4;1.4;1 a 3 anos
-967;Lavínia Pires;RH;Assistente;10326.2;2022-07-01;F;29;Casado;Ativo;2022;7;3;3.9;3 a 5 anos
+967;Lavínia Pires;RH;Assistente;10326.2;2022-07-01;F;29;Casado;Ativo;2022;7;3;3.8;3 a 5 anos
 968;Luana Barros;Financeiro;Técnico;9067.35;2022-04-28;M;38;Casado;Inativo;2022;4;2;4.0;3 a 5 anos
 969;Ana Luiza Oliveira;Financeiro;Técnico;8009.59;2019-10-13;F;36;Casado;Inativo;2019;10;4;6.6;Mais de 5 anos
 970;Pietro Lopes;Logística;Assistente;10672.76;2017-09-18;M;24;Solteiro;Ativo;2017;9;3;8.6;Mais de 5 anos
@@ -975,7 +975,7 @@
 974;Sr. João Lucas Almeida;Produção;Analista;9268.53;2022-09-10;F;43;Casado;Inativo;2022;9;3;3.7;3 a 5 anos
 975;Davi Lucas Melo;RH;Técnico;4336.87;2022-12-27;F;32;Solteiro;Ativo;2022;12;4;3.4;3 a 5 anos
 976;Ana Vitória Freitas;RH;Técnico;2224.18;2021-08-11;M;61;Solteiro;Inativo;2021;8;3;4.7;3 a 5 anos
-977;Dr. Davi Lucas Nascimento;RH;Coordenador;13216.01;2020-12-30;M;49;Divorciado;Inativo;2020;12;4;5.4;Mais de 5 anos
+977;Dr. Davi Lucas Nascimento;RH;Coordenador;13216.01;2020-12-30;M;49;Divorciado;Inativo;2020;12;4;5.3;Mais de 5 anos
 978;Fernando Gonçalves;Vendas;Gerente;13004.21;2019-04-05;F;24;Casado;Inativo;2019;4;2;7.1;Mais de 5 anos
 979;Dra. Pietra da Luz;RH;Analista;9486.05;2016-03-17;F;65;Casado;Ativo;2016;3;1;10.1;Mais de 5 anos
 980;Stephany Novaes;Produção;Coordenador;3106.89;2017-07-07;M;22;Divorciado;Ativo;2017;7;3;8.8;Mais de 5 anos
