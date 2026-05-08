@@ -4,9 +4,12 @@
 
 **Repositório oficial da turma** · Lab365 / SENAI SC
 
-[![Alunos](https://img.shields.io/badge/alunos-29-blue?style=flat-square)](./alunos/)
+[![Alunos](https://img.shields.io/badge/alunos-30-blue?style=flat-square)](./alunos/)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen?style=flat-square)](./CONTRIBUTING.md)
 [![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-lightgrey?style=flat-square)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/cfneves/turma-visualizacao-de-dados?style=social)](https://github.com/cfneves/turma-visualizacao-de-dados/stargazers)
+
+**Se este repositório te ajuda, clique em ⭐ Star lá em cima — é a forma mais rápida de dar moral ao professor!**
 
 </div>
 
@@ -135,6 +138,7 @@ turma-visualizacao-de-dados/
 | Andressa Alves | [Andressa_Alves](./alunos/Andressa_Alves/) |
 | Anaysa Lopes | [anaysa_lopes](./alunos/anaysa_lopes/) |
 | Beatriz Bruns | [beatriz_bruns](./alunos/beatriz_bruns/) |
+| Bruno Briani | [Bruno_Briani](./alunos/Bruno_Briani/) |
 | Camilla Nascimento | [camilla_nascimento](./alunos/camilla_nascimento/) |
 | Carlos F. | [Carlos_F](./alunos/Carlos_F/) |
 | Christian Wis | [Christian_Wis](./alunos/Christian_Wis/) |
@@ -142,7 +146,7 @@ turma-visualizacao-de-dados/
 | Daniel Roberto | [daniel_roberto](./alunos/daniel_roberto/) |
 | Felipe Vampre | [felipe_vampre](./alunos/felipe_vampre/) |
 | Gustavo Branga | [gustavo_branga](./alunos/gustavo_branga/) |
-| Isaac Trenard | [Isaac Trenard](./alunos/Isaac%20Trenard/) |
+| Isaac Trenard | [Isaac_Trenard](./alunos/Isaac_Trenard/) |
 | Jonatas Mag | [jonatas_mag](./alunos/jonatas_mag/) |
 | Leo Gobel | [Leo_Gobel](./alunos/Leo_Gobel/) |
 | Lourenço Lemos | [lourenco_lemos](./alunos/lourenco_lemos/) |
