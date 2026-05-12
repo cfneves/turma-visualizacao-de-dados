@@ -109,10 +109,20 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 ```
 turma-visualizacao-de-dados/
 │
-├── aulas/                  ← Notebooks e slides das aulas
-├── exercicios/             ← Enunciados dos exercícios propostos
-├── datasets/               ← Datasets compartilhados da turma
-├── projetos/               ← Projetos finais publicados
+├── aulas/                  ← Materiais didáticos do professor (HTML, notebooks, slides)
+│   ├── semana_02/          ← Git e GitHub — versionamento
+│   ├── semana_03/          ← Python: fundamentos e colaboração
+│   ├── semana_04/          ← Manipulação de dados, funções e notebooks
+│   └── semana_05/          ← Pandas e NumPy
+│
+├── exercicios/             ← Exercícios e desafios práticos de Python
+│   ├── 01.sintaxe/         ← print, input e comentários
+│   ├── 02.variaveis/       ← Tipos primitivos e variáveis
+│   ├── 03.Estruturas/      ← Condicionais e loops
+│   └── 04. Exercicios/     ← Desafios práticos para fixação
+│
+├── datasets/               ← Datasets compartilhados da turma (.csv, .json, .xlsx)
+├── projetos/               ← Galeria de projetos finais aprovados
 │
 ├── alunos/                 ← ✏️  ÁREA DOS ALUNOS — cada um tem sua pasta aqui
 │   ├── TEMPLATE_README.md  ← Modelo de portfólio para copiar
@@ -147,6 +157,7 @@ turma-visualizacao-de-dados/
 | Felipe Vampre | [felipe_vampre](./alunos/felipe_vampre/) |
 | Gustavo Branga | [gustavo_branga](./alunos/gustavo_branga/) |
 | Isaac Trenard | [Isaac_Trenard](./alunos/Isaac_Trenard/) |
+| Jakson Luis | [jakson_luis](./alunos/jakson_luis/) |
 | Jonatas Mag | [jonatas_mag](./alunos/jonatas_mag/) |
 | Leo Gobel | [Leo_Gobel](./alunos/Leo_Gobel/) |
 | Lourenço Lemos | [lourenco_lemos](./alunos/lourenco_lemos/) |
