@@ -91,16 +91,21 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 
 ---
 
-## Tecnologias da Turma
+## Stack e Competências
 
-| Área | Ferramentas |
-|------|-------------|
-| Linguagem | Python 3.10+ |
-| Análise | Pandas, NumPy |
-| Visualização | Matplotlib, Seaborn, Plotly |
-| Notebooks | Jupyter Notebook / JupyterLab |
-| Versionamento | Git + GitHub |
-| Ambiente | Anaconda / venv |
+> Visão rápida para recrutadores — o que cada aluno domina ao concluir os dois módulos.
+
+| Camada | Ferramentas | Competência desenvolvida |
+|--------|-------------|--------------------------|
+| Linguagem | Python 3.10+ | Lógica, funções, OOP básico, manipulação de arquivos |
+| Análise | Pandas · NumPy | Limpeza, transformação, agregação e análise exploratória |
+| Visualização | Matplotlib · Seaborn · Plotly | Gráficos estáticos, interativos e storytelling com dados |
+| Notebooks | Jupyter · JupyterLab | Prototipagem reproduzível e documentação de análises |
+| BI & Dashboards | Looker Studio · Power BI · Tableau | Modelagem dimensional, DAX, publicação e storytelling |
+| Deploy | Streamlit + Cloud | Aplicações de dados com Python e deploy em produção |
+| Dados | SQL · DW · OLAP | Modelagem estrela, window functions, otimização de queries |
+| Colaboração | Git · GitHub · SCRUM | Fluxo colaborativo, code review via PR, metodologia ágil |
+| Ambiente | Anaconda · venv | Gerenciamento de ambientes e dependências |
 
 ---
 
@@ -109,30 +114,40 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 ```
 turma-visualizacao-de-dados/
 │
-├── aulas/                  ← Materiais didáticos do professor (HTML, notebooks, slides)
-│   ├── semana_02/          ← Git e GitHub — versionamento
-│   ├── semana_03/          ← Python: fundamentos e colaboração
-│   ├── semana_04/          ← Manipulação de dados, funções e notebooks
-│   └── semana_05/          ← Pandas e NumPy
+├── aulas/                              ← Materiais didáticos do professor
+│   ├── semana_02/
+│   │   └── html/                       ← Slides: Git e GitHub — versionamento
+│   ├── semana_03/
+│   │   └── html/                       ← Slides: Python fundamentos e colaboração
+│   ├── semana_04/
+│   │   ├── html/                       ← Slides: manipulação de dados e funções
+│   │   ├── bases/                      ← Datasets de aula (CSV, JSON, XLSX, ipynb)
+│   │   └── notebooks/                  ← Notebooks: revisão e demonstrações
+│   └── semana_05/
+│       └── notebooks/                  ← Notebooks: desafios Pandas e NumPy
 │
-├── exercicios/             ← Exercícios e desafios práticos de Python
-│   ├── 01.sintaxe/         ← print, input e comentários
-│   ├── 02.variaveis/       ← Tipos primitivos e variáveis
-│   ├── 03.Estruturas/      ← Condicionais e loops
-│   └── 04. Exercicios/     ← Desafios práticos para fixação
+├── exercicios/                         ← Exercícios com gabarito — Python progressivo
+│   ├── 01.sintaxe/                     ← print, input, comentários  (3 exercícios)
+│   ├── 02.variaveis/                   ← Tipos primitivos e casting  (6 arquivos)
+│   ├── 03.Estruturas/                  ← Condicionais e loops        (3 exercícios)
+│   └── 04. Exercicios/                 ← Desafios práticos + gabaritos
+│       ├── calculadora.py              ← Desafio: calculadora interativa
+│       ├── gabarito_calculadora.py     ← Gabarito
+│       ├── cadastro_produtos.py        ← Desafio: caixa de loja com desconto
+│       └── cadastro_produtos_gabarito.py ← Gabarito
 │
-├── datasets/               ← Datasets compartilhados da turma (.csv, .json, .xlsx)
-├── projetos/               ← Galeria de projetos finais aprovados
+├── datasets/                           ← Datasets compartilhados (.csv · .json · .xlsx)
+├── projetos/                           ← Galeria de projetos finais aprovados
 │
-├── alunos/                 ← ✏️  ÁREA DOS ALUNOS — cada um tem sua pasta aqui
-│   ├── TEMPLATE_README.md  ← Modelo de portfólio para copiar
-│   └── nome-sobrenome/     ← Pasta individual de cada aluno
-│       ├── README.md       ← Apresentação e portfólio pessoal
-│       ├── exercicios/     ← Entregas de exercícios
-│       └── projetos/       ← Projetos autorais
+├── alunos/                             ← Portfólios individuais dos alunos
+│   ├── TEMPLATE_README.md              ← Modelo de portfólio para copiar
+│   └── nome-sobrenome/
+│       ├── README.md                   ← Portfólio e apresentação pessoal
+│       ├── exercicios/                 ← Entregas de exercícios
+│       └── projetos/                   ← Projetos autorais
 │
-└── .github/                ← Configurações internas do GitHub (não editar)
-    └── ISSUE_TEMPLATE/     ← Formulários de dúvida e problema de PR
+└── .github/
+    └── ISSUE_TEMPLATE/                 ← Templates de dúvida e problema de PR
 ```
 
 > **Alunos:** toda a sua atuação é dentro de `alunos/seu-nome/`. Nenhum outro diretório deve ser modificado.
