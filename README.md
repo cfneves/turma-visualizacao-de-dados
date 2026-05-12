@@ -36,6 +36,9 @@
   <img src="https://img.shields.io/badge/semanas-28-0EA5E9?style=flat-square" alt="Semanas">
   <img src="https://img.shields.io/badge/status-em%20andamento-22C55E?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/PRs-bem--vindos-brightgreen?style=flat-square" alt="PRs Welcome">
+  <a href="https://github.com/cfneves/turma-visualizacao-de-dados/actions/workflows/pr-validator.yml">
+    <img src="https://github.com/cfneves/turma-visualizacao-de-dados/actions/workflows/pr-validator.yml/badge.svg" alt="PR Validator">
+  </a>
 </p>
 
 <sub>Lab365 / SENAI SC · Curso de Análise de Dados · 2025</sub>

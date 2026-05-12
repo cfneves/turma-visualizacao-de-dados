@@ -14,6 +14,24 @@ O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [1.5.0] — 2026-05-12
+
+### Adicionado
+- `.github/CODEOWNERS` — professor controla todo o repositório; cada aluno co-owner da sua pasta
+- `.github/students.json` — registro de alunos mapeando GitHub username → pasta em `alunos/`
+- `.github/workflows/pr-validator.yml` — workflow que valida escopo de PRs: bloqueia alterações fora da pasta do aluno
+- `.github/workflows/welcome.yml` — mensagem de boas-vindas automática para primeiros contribuidores
+- `docs/BRANCH_PROTECTION.md` — guia passo a passo para configurar branch protection no GitHub
+
+### Melhorado
+- `CONTRIBUTING.md` — seção 1 migrada para fluxo fork + upstream; nova seção 6 documenta verificação automática de PRs
+- `PULL_REQUEST_TEMPLATE.md` — adicionada menção ao validador automático no checklist
+
+### Corrigido
+- Removidos `aulas/semana_04/Exercicio_final.ipynb` e `aulas/semana_04/base_rh.csv` (arquivos adicionados indevidamente por aluno fora da pasta pessoal)
+
+---
+
 ## [1.4.0] — 2026-05-12
 
 ### Adicionado
