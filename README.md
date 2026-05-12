@@ -4,7 +4,7 @@
 
 **Repositório oficial da turma** · Lab365 / SENAI SC
 
-[![Alunos](https://img.shields.io/badge/alunos-30-blue?style=flat-square)](./alunos/)
+[![Alunos](https://img.shields.io/badge/alunos-31-blue?style=flat-square)](./alunos/)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen?style=flat-square)](./CONTRIBUTING.md)
 [![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-lightgrey?style=flat-square)](./LICENSE)
 [![Stars](https://img.shields.io/github/stars/cfneves/turma-visualizacao-de-dados?style=social)](https://github.com/cfneves/turma-visualizacao-de-dados/stargazers)
