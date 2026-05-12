@@ -9,7 +9,6 @@
 [![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-lightgrey?style=flat-square)](./LICENSE)
 [![Stars](https://img.shields.io/github/stars/cfneves/turma-visualizacao-de-dados?style=social)](https://github.com/cfneves/turma-visualizacao-de-dados/stargazers)
 
-**Se este repositório te ajuda, clique em ⭐ Star lá em cima — é a forma mais rápida de dar moral ao professor!**
 
 </div>
 
@@ -277,22 +276,22 @@ Consulte o [CONTRIBUTING.md](./CONTRIBUTING.md) para o guia completo, convençã
 
 ---
 
-## Regras do Repositório
+## Diretrizes
 
-- Mantenha todos os seus arquivos dentro da sua pasta `alunos/nome-sobrenome/`
-- **Nunca** modifique arquivos de outros alunos
+- Mantenha todos os seus arquivos dentro de `alunos/nome-sobrenome/`
+- Não modifique arquivos de outros alunos
 - Nomes de arquivo sem espaços — use `_` ou `-` (ex: `exercicio_01.ipynb`)
-- Datasets grandes (> 50 MB): adicione apenas na pasta `datasets/` compartilhada
-- Notebooks devem rodar sem erros antes de serem enviados
-- Commits com mensagens descritivas seguindo a convenção do projeto
+- Datasets acima de 50 MB: adicione somente em `datasets/`
+- Notebooks devem executar sem erros antes do envio
+- Mensagens de commit descritivas seguindo a convenção do projeto
 
 ---
 
-## Dúvidas e Suporte
+## Suporte
 
 - Abra uma **[Issue](https://github.com/cfneves/turma-visualizacao-de-dados/issues)** com a tag `[dúvida]` no título
-- Para problemas no seu PR, descreva o erro na própria thread do PR
-- Para conflitos de merge, consulte a seção específica no [CONTRIBUTING.md](./CONTRIBUTING.md#resolvendo-conflitos)
+- Problemas no PR: descreva o erro na thread do próprio PR
+- Conflitos de merge: consulte o [CONTRIBUTING.md](./CONTRIBUTING.md#resolvendo-conflitos)
 
 ---
 
