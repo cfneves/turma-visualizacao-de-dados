@@ -1,6 +1,5 @@
 # Orlando Vieira de Castro Junior — Visualização de Dados
 
-<<<<<<< Updated upstream
 Aluno da turma de Visualização de Dados — SCTEC / SENAI SC
 
 ---
@@ -45,4 +44,3 @@ orlando_castro/
 ## Contato
 
 orlandovcj@gmail.com
->>>>>>> Stashed changes
