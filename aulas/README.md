@@ -16,10 +16,14 @@ aulas/
 ├── semana_03/              → Python: Fundamentos e Colaboração no GitHub
 │   └── html/
 │
-└── semana_04/              → Manipulação de Dados · Funções e Modularização
-    ├── html/
-    ├── bases/
-    └── notebooks/
+├── semana_04/              → Manipulação de Dados · Funções e Modularização
+│   ├── html/
+│   ├── bases/
+│   └── notebooks/
+│
+└── semana_05/              → Pandas e NumPy
+    ├── aula_01.ipynb
+    └── aula_02.ipynb
 ```
 
 ---
@@ -61,6 +65,17 @@ aulas/
 **Bases de dados disponíveis em `semana_04/bases/`:** `base_rh.csv`, `base_rh.json`, `base_rh.xlsx`, `base_rh_dia01.csv`, `base_rh_por_depto.xlsx`
 
 **Temas abordados:** leitura de arquivos, manipulação com dicionários e listas, funções com parâmetros e retorno, modularização de código.
+
+---
+
+## Semana 05 — Pandas e NumPy
+
+| Arquivo | Descrição |
+|---------|-----------|
+| [`aula_01.ipynb`](./semana_05/aula_01.ipynb) | Notebook da aula 01 — fundamentos de Pandas: Series, DataFrame, leitura de CSV e Excel |
+| [`aula_02.ipynb`](./semana_05/aula_02.ipynb) | Notebook da aula 02 — NumPy e operações vetorizadas |
+
+**Temas abordados:** `pd.Series`, `pd.DataFrame`, `read_csv`, `read_excel`, seleção e filtragem, operações com NumPy, arrays e broadcasting.
 
 ---
 
