@@ -2,33 +2,79 @@
 
 # 📊 Turma de Visualização de Dados
 
-**Repositório oficial da turma** · Lab365 / SENAI SC
+**Do Python ao Business Intelligence — portfólio real, workflow profissional, desde o primeiro commit**
 
-[![Alunos](https://img.shields.io/badge/alunos-20-blue?style=flat-square)](./alunos/)
-[![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen?style=flat-square)](./CONTRIBUTING.md)
-[![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-lightgrey?style=flat-square)](./LICENSE)
+<p>
+  <a href="https://github.com/cfneves/turma-visualizacao-de-dados/stargazers">
+    <img src="https://img.shields.io/github/stars/cfneves/turma-visualizacao-de-dados?style=for-the-badge&color=FFD700" alt="Stars">
+  </a>
+  <a href="https://github.com/cfneves/turma-visualizacao-de-dados/network/members">
+    <img src="https://img.shields.io/github/forks/cfneves/turma-visualizacao-de-dados?style=for-the-badge&color=4F8EF7" alt="Forks">
+  </a>
+  <a href="https://github.com/cfneves/turma-visualizacao-de-dados/issues">
+    <img src="https://img.shields.io/github/issues/cfneves/turma-visualizacao-de-dados?style=for-the-badge" alt="Issues">
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/Licença-MIT-22C55E?style=for-the-badge" alt="MIT License">
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-2.0+-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/alunos-32-blue?style=flat-square" alt="Alunos">
+  <img src="https://img.shields.io/badge/módulos-2-8B5CF6?style=flat-square" alt="Módulos">
+  <img src="https://img.shields.io/badge/semanas-28-0EA5E9?style=flat-square" alt="Semanas">
+  <img src="https://img.shields.io/badge/status-em%20andamento-22C55E?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/PRs-bem--vindos-brightgreen?style=flat-square" alt="PRs Welcome">
+  <a href="https://github.com/cfneves/turma-visualizacao-de-dados/actions/workflows/pr-validator.yml">
+    <img src="https://github.com/cfneves/turma-visualizacao-de-dados/actions/workflows/pr-validator.yml/badge.svg" alt="PR Validator">
+  </a>
+</p>
+
+<sub>Lab365 / SENAI SC · Curso de Análise de Dados · 2026 - Turma T2 - Disciplina: Visualização de Dados e Business Intelligence</sub>
 
 </div>
 
 ---
 
-## Sobre o Curso
+## Sobre o Projeto
 
-| | |
-|--|--|
-| **Curso** | Análise de Dados |
-| **Disciplina** | Visualização de Dados e Business Intelligence |
-| **Instituição** | Lab365 / SENAI SC |
-| **Carga horária** | 2 módulos · 14 semanas cada · 3 aulas por semana |
+Repositório colaborativo da turma de **Análise de Dados e Visualização de BI** do Lab365 / SENAI SC.
 
-Este repositório reúne os materiais, exercícios e portfólios da turma. O objetivo é que cada aluno use seu espaço aqui como ponto de partida para um portfólio público de análise de dados — visível para recrutadores e colaboradores.
+Cada aluno constrói aqui, ao longo de 28 semanas, um **portfólio público e rastreável** — visível por recrutadores desde o primeiro commit. Exercícios são Pull Requests. Correções são commits. Projetos terminam publicados. O histórico de aprendizado fica documentado no git.
+
+> **Para educadores:** este repositório é um modelo funcional para cursos de dados. Faça um fork e adapte para sua turma — instruções na seção [Para Educadores](#para-educadores).
 
 ---
 
-## Plano do Curso
+## Por Que Este Modelo?
+
+| | Modelo Tradicional | Este Repositório |
+|---|---|---|
+| **Entrega de exercícios** | ZIP por e-mail ou AVA | Pull Request revisada no GitHub |
+| **Portfólio** | Criado depois da formatura | Construído semana a semana |
+| **Feedback do professor** | Privado, perdido no tempo | Documentado na thread do PR |
+| **Histórico de aprendizado** | Inexistente | 100% rastreável via `git log` |
+| **Visibilidade para recrutadores** | Zero durante o curso | Pública desde o primeiro commit |
+| **Habilidade de versionamento** | Teoria isolada | Prática real e obrigatória |
+| **Colaboração** | Individual, sem interação | Branch → PR → review → merge |
+
+---
+
+## Currículo
 
 ### Módulo 1 — Fundamentos de Análise de Dados
-> 14/04/2025 a 17/07/2025 · Aulas: Terça, Quinta e Sexta
+> 14/04/2025 a 17/07/2025 · Terça, Quinta e Sexta
 
 | Semana | Período | Tema |
 |--------|---------|------|
@@ -47,7 +93,8 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 | 13 | 07–10/07 | **Projeto Avaliativo Individual** |
 | 14 | 14–17/07 | Encerramento do Módulo 1 |
 
-**Avaliação Módulo 1**
+<details>
+<summary>Avaliação Módulo 1</summary>
 
 | Avaliação | Peso | Descrição |
 |-----------|------|-----------|
@@ -55,10 +102,12 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 | M1.2 — Projeto Individual | 60% | AED + visualizações + documentação de base pública |
 | M1.3 — Listas de Exercícios | 15% | Exercícios semanais entregues no AVA |
 
+</details>
+
 ---
 
 ### Módulo 2 — Visualização de Dados e Business Intelligence
-> 21/07/2025 a 30/10/2025 · Aulas: Segunda, Quarta e Sexta
+> 21/07/2025 a 30/10/2025 · Segunda, Quarta e Sexta
 
 | Semana | Período | Tema |
 |--------|---------|------|
@@ -78,7 +127,8 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 | 13 | 20–23/10 | **Projeto Avaliativo em Squads** |
 | 14 | 27–30/10 | Encerramento do Módulo 2 |
 
-**Avaliação Módulo 2**
+<details>
+<summary>Avaliação Módulo 2</summary>
 
 | Avaliação | Peso | Descrição |
 |-----------|------|-----------|
@@ -86,18 +136,23 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 | M2.2 — Projeto em Squads | 60% | 2 dashboards (Streamlit + ferramenta à escolha) + documentação |
 | M2.3 — Listas de Exercícios | 10% | Exercícios semanais entregues no AVA |
 
+</details>
+
 ---
 
-## Tecnologias da Turma
+## Stack e Competências
 
-| Área | Ferramentas |
-|------|-------------|
-| Linguagem | Python 3.10+ |
-| Análise | Pandas, NumPy |
-| Visualização | Matplotlib, Seaborn, Plotly |
-| Notebooks | Jupyter Notebook / JupyterLab |
-| Versionamento | Git + GitHub |
-| Ambiente | Anaconda / venv |
+| Camada | Ferramentas | Competência desenvolvida |
+|--------|-------------|--------------------------|
+| Linguagem | Python 3.10+ | Lógica, funções, OOP básico, manipulação de arquivos |
+| Análise | Pandas · NumPy | Limpeza, transformação, agregação e análise exploratória |
+| Visualização | Matplotlib · Seaborn · Plotly | Gráficos estáticos, interativos e storytelling com dados |
+| Notebooks | Jupyter · JupyterLab | Prototipagem reproduzível e documentação de análises |
+| BI & Dashboards | Looker Studio · Power BI · Tableau | Modelagem dimensional, DAX, publicação e storytelling |
+| Deploy | Streamlit + Cloud | Aplicações de dados com Python e deploy em produção |
+| Dados | SQL · DW · OLAP | Modelagem estrela, window functions, otimização de queries |
+| Colaboração | Git · GitHub · SCRUM | Fluxo colaborativo, code review via PR, metodologia ágil |
+| Ambiente | Anaconda · venv | Gerenciamento de ambientes e dependências |
 
 ---
 
@@ -106,20 +161,40 @@ Este repositório reúne os materiais, exercícios e portfólios da turma. O obj
 ```
 turma-visualizacao-de-dados/
 │
-├── aulas/                  ← Notebooks e slides das aulas
-├── exercicios/             ← Enunciados dos exercícios propostos
-├── datasets/               ← Datasets compartilhados da turma
-├── projetos/               ← Projetos finais publicados
+├── aulas/                              ← Materiais didáticos do professor
+│   ├── semana_02/
+│   │   └── html/                       ← Slides: Git e GitHub — versionamento
+│   ├── semana_03/
+│   │   └── html/                       ← Slides: Python fundamentos e colaboração
+│   ├── semana_04/
+│   │   ├── html/                       ← Slides: manipulação de dados e funções
+│   │   ├── bases/                      ← Datasets de aula (CSV, JSON, XLSX, ipynb)
+│   │   └── notebooks/                  ← Notebooks: revisão e demonstrações
+│   └── semana_05/
+│       └── notebooks/                  ← Notebooks: desafios Pandas e NumPy
 │
-├── alunos/                 ← ✏️  ÁREA DOS ALUNOS — cada um tem sua pasta aqui
-│   ├── TEMPLATE_README.md  ← Modelo de portfólio para copiar
-│   └── nome-sobrenome/     ← Pasta individual de cada aluno
-│       ├── README.md       ← Apresentação e portfólio pessoal
-│       ├── exercicios/     ← Entregas de exercícios
-│       └── projetos/       ← Projetos autorais
+├── exercicios/                         ← Exercícios com gabarito — Python progressivo
+│   ├── 01.sintaxe/                     ← print, input, comentários  (3 exercícios)
+│   ├── 02.variaveis/                   ← Tipos primitivos e casting  (6 arquivos)
+│   ├── 03.Estruturas/                  ← Condicionais e loops        (3 exercícios)
+│   └── 04. Exercicios/                 ← Desafios práticos + gabaritos
+│       ├── calculadora.py              ← Desafio: calculadora interativa
+│       ├── gabarito_calculadora.py     ← Gabarito
+│       ├── cadastro_produtos.py        ← Desafio: caixa de loja com desconto
+│       └── cadastro_produtos_gabarito.py
 │
-└── .github/                ← Configurações internas do GitHub (não editar)
-    └── ISSUE_TEMPLATE/     ← Formulários de dúvida e problema de PR
+├── datasets/                           ← Datasets compartilhados (.csv · .json · .xlsx)
+├── projetos/                           ← Galeria de projetos finais aprovados
+│
+├── alunos/                             ← Portfólios individuais dos alunos
+│   ├── TEMPLATE_README.md              ← Modelo de portfólio para copiar
+│   └── nome-sobrenome/
+│       ├── README.md                   ← Portfólio e apresentação pessoal
+│       ├── exercicios/                 ← Entregas de exercícios
+│       └── projetos/                   ← Projetos autorais
+│
+└── .github/
+    └── ISSUE_TEMPLATE/                 ← Templates de dúvida e problema de PR
 ```
 
 > **Alunos:** toda a sua atuação é dentro de `alunos/seu-nome/`. Nenhum outro diretório deve ser modificado.
@@ -128,181 +203,156 @@ turma-visualizacao-de-dados/
 
 ## Portfólios dos Alunos
 
-> Cada aluno mantém sua própria pasta em `alunos/`. Clique no nome para visitar o portfólio.
+> Clique no nome para acessar o portfólio público de cada aluno.
 
-| Aluno | Pasta |
-|-------|-------|
-| Carlos F. | [Carlos_F](./alunos/Carlos_F/) |
-| Christian Wis | [Christian_Wis](./alunos/Christian_Wis/) |
-| Claudi Borges | [claudi_borges](./alunos/claudi_borges/) |
-| Daniel Roberto | [daniel_roberto](./alunos/daniel_roberto/) |
-| Felipe Vampre | [felipe_vampre](./alunos/felipe_vampre/) |
-| Gustavo Branga | [gustavo_branga](./alunos/gustavo_branga/) |
-| Leo Gobel | [Leo_Gobel](./alunos/Leo_Gobel/) |
-| Lourenço Lemos | [lourenco_lemos](./alunos/lourenco_lemos/) |
-| Luís Napolitano | [luis_napolitano](./alunos/luis_napolitano/) |
-| Luís Oliveira | [luis_oliveira](./alunos/luis_oliveira/) |
-| Luiz Fernando Jesus | [luiz_fernando_jesus](./alunos/luiz_fernando_jesus/) |
-| Marcos Bhering | [marcos_bhering](./alunos/marcos_bhering/) |
-| Maria Helena | [maria_helena](./alunos/maria_helena/) |
-| Orlando Castro | [orlando_castro](./alunos/orlando_castro/) |
-| Robson Américo | [robsonaamerico](./alunos/robsonaamerico/) |
-| Rogério Estumano | [rogerio_estumano](./alunos/rogerio_estumano/) |
-| Samuel Bucco | [samuel_bucco](./alunos/samuel_bucco/) |
-| Sérgio Leite | [sergio_leite](./alunos/sergio_leite/) |
-| Victor H. Santos | [victor_h_santos](./alunos/victor_h_santos/) |
-| Waldinei Lameira | [waldinei_lameira](./alunos/waldinei_lameira/) |
-| Cláudio Neves _(professor)_ | [claudio_neves](./alunos/claudio_neves/) |
+| Aluno | Portfólio |
+|-------|-----------|
+| Andressa Alves | [→ ver portfólio](./alunos/Andressa_Alves/) |
+| Anaysa Lopes | [→ ver portfólio](./alunos/anaysa_lopes/) |
+| Beatriz Bruns | [→ ver portfólio](./alunos/beatriz_bruns/) |
+| Bruno Briani | [→ ver portfólio](./alunos/Bruno_Briani/) |
+| Camilla Lonatas | [→ ver portfólio](./alunos/Camilla%20Lonatas/) |
+| Camilla Nascimento | [→ ver portfólio](./alunos/camilla_nascimento/) |
+| Carlos F. | [→ ver portfólio](./alunos/Carlos_F/) |
+| Christian Wis | [→ ver portfólio](./alunos/Christian_Wis/) |
+| Claudi Borges | [→ ver portfólio](./alunos/claudi_borges/) |
+| Daniel Roberto | [→ ver portfólio](./alunos/daniel_roberto/) |
+| Felipe Vampre | [→ ver portfólio](./alunos/felipe_vampre/) |
+| Gustavo Branga | [→ ver portfólio](./alunos/gustavo_branga/) |
+| Isaac Trenard | [→ ver portfólio](./alunos/Isaac_Trenard/) |
+| Jakson Luis | [→ ver portfólio](./alunos/jakson_luis/) |
+| Jonatas Mag | [→ ver portfólio](./alunos/jonatas_mag/) |
+| Leo Gobel | [→ ver portfólio](./alunos/Leo_Gobel/) |
+| Lourenço Lemos | [→ ver portfólio](./alunos/lourenco_lemos/) |
+| Luís Napolitano | [→ ver portfólio](./alunos/luis_napolitano/) |
+| Luís Oliveira | [→ ver portfólio](./alunos/luis_oliveira/) |
+| Luiz Fernando Jesus | [→ ver portfólio](./alunos/luiz_fernando_jesus/) |
+| Marcos Bhering | [→ ver portfólio](./alunos/marcos_bhering/) |
+| Maria Helena | [→ ver portfólio](./alunos/maria_helena/) |
+| Orlando Castro | [→ ver portfólio](./alunos/orlando_castro/) |
+| Robson Américo | [→ ver portfólio](./alunos/robsonaamerico/) |
+| Rogério Estumano | [→ ver portfólio](./alunos/rogerio_estumano/) |
+| Ruan Fernandes | [→ ver portfólio](./alunos/ruan.fernandes/) |
+| Samuel Bucco | [→ ver portfólio](./alunos/samuel_bucco/) |
+| Sérgio Leite | [→ ver portfólio](./alunos/sergio_leite/) |
+| Stefano Laurito | [→ ver portfólio](./alunos/stefano_laurito/) |
+| Victor H. Santos | [→ ver portfólio](./alunos/victor_h_santos/) |
+| Waldinei Lameira | [→ ver portfólio](./alunos/waldinei_lameira/) |
+| Zaira Wendt | [→ ver portfólio](./alunos/zaira_wendt/) |
+| Cláudio Neves _(professor)_ | [→ ver portfólio](./alunos/claudio_neves/) |
 
-_Sua pasta ainda não aparece aqui? Siga o [guia de contribuição](./CONTRIBUTING.md) e abra um PR._
-
----
-
-## Como Participar — Fork e Clone
-
-Você vai usar **os dois**: fork e clone. Eles fazem coisas diferentes e se complementam. Entenda cada um antes de combiná-los.
-
----
-
-### O que é Fork
-
-**Fork** é uma cópia do repositório criada **dentro da sua conta no GitHub** (na nuvem). Você faz isso diretamente pelo site do GitHub — sem precisar do terminal.
-
-**Quando usar:** quando você não tem permissão de escrita no repositório original (como é o caso aqui — somente o professor pode escrever diretamente).
-
-**Como fazer:**
-
-1. Acesse [github.com/cfneves/turma-visualizacao-de-dados](https://github.com/cfneves/turma-visualizacao-de-dados)
-2. Clique no botão **Fork** no canto superior direito
-3. Confirme clicando em **Create fork**
-
-Resultado: agora existe uma cópia em `github.com/SEU_USUARIO/turma-visualizacao-de-dados` — essa cópia é **sua** e você pode fazer o que quiser nela.
-
-> O fork fica no GitHub. Você ainda não tem nada no seu computador.
+_Sua pasta ainda não aparece? Siga o [guia de contribuição](./CONTRIBUTING.md) e abra um PR._
 
 ---
 
-### O que é Clone
+## Como Começar
 
-**Clone** é o ato de baixar um repositório para o **seu computador**. A partir daí você trabalha localmente — no VS Code, Jupyter, ou qualquer editor.
+### Pré-requisito
 
-**Quando usar:** sempre que quiser trabalhar nos arquivos localmente, na sua máquina.
+O professor adiciona você como colaborador. Aceite o convite que chegará no e-mail cadastrado no GitHub.
 
-**Como fazer:**
+### Configuração inicial — faça uma única vez
 
 ```bash
-# No terminal, dentro da pasta onde quer salvar o projeto:
-git clone https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
+# 1. Clone o repositório
+git clone https://github.com/cfneves/turma-visualizacao-de-dados.git
 cd turma-visualizacao-de-dados
-```
 
-> ⚠️ Clone sempre o SEU fork (`SEU_USUARIO`), nunca o do professor (`cfneves`). Se clonar o do professor, você não terá permissão para enviar suas alterações.
-
-Resultado: o repositório agora existe no seu computador. Qualquer alteração que você fizer precisa ser enviada de volta ao GitHub com `git push`.
-
----
-
-### Fork vs Clone — comparação rápida
-
-| | Fork | Clone |
-|--|------|-------|
-| **Onde acontece** | No GitHub (navegador) | No terminal (sua máquina) |
-| **Onde fica o resultado** | Na sua conta do GitHub | Na sua pasta local |
-| **Para que serve** | Criar sua cópia com permissão de envio | Trabalhar localmente nos arquivos |
-| **Frequência** | Uma vez por repositório | Uma vez por máquina |
-
----
-
-### Fluxo completo — os dois juntos
-
-```
-Repositório do professor          Seu GitHub               Seu computador
-github.com/cfneves/...    →fork→  github.com/SEU_USUARIO/  →clone→  pasta local
-                                         ↑                              ↓
-                                         └──────── push ────────────────┘
-                          ←PR←   github.com/SEU_USUARIO/
-```
-
-**1. Fork — faça UMA vez**
-
-Acesse [github.com/cfneves/turma-visualizacao-de-dados](https://github.com/cfneves/turma-visualizacao-de-dados) e clique no botão **Fork** (canto superior direito). Isso cria uma cópia do repositório na sua conta.
-
-**2. Clone — faça UMA vez por máquina**
-
-Copie o endereço do SEU fork (não o do professor) e rode no terminal:
-
-```bash
-git clone https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
-cd turma-visualizacao-de-dados
-```
-
-> ⚠️ Atenção: clone sempre o SEU fork (`SEU_USUARIO`), não o repositório do professor (`cfneves`). Se clonar o do professor, não terá permissão para enviar alterações.
-
-**3. Conecte ao repositório original — faça UMA vez**
-
-Isso permite que você atualize seu fork quando o professor adicionar novos materiais:
-
-```bash
-git remote add upstream https://github.com/cfneves/turma-visualizacao-de-dados.git
-
-# Confirme que os dois endereços estão configurados:
-git remote -v
-# origin    https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
-# upstream  https://github.com/cfneves/turma-visualizacao-de-dados.git
-```
-
-**4. Crie sua pasta de aluno — faça UMA vez**
-
-```bash
+# 2. Crie sua pasta de aluno (use seu nome em letras minúsculas com _)
 mkdir alunos/nome-sobrenome
 cp alunos/TEMPLATE_README.md alunos/nome-sobrenome/README.md
 ```
 
-**5. Para cada entrega: edite → commit → push → PR**
+Edite o `README.md` com suas informações — esse arquivo é seu cartão de visitas para recrutadores.
+
+### Fluxo de entrega — repita a cada exercício ou projeto
 
 ```bash
-# Antes de qualquer entrega, atualize seu fork com o conteúdo mais recente:
-git fetch upstream
-git merge upstream/master
+# Atualize sua cópia local
+git checkout master
+git pull origin master
 
-# Faça suas alterações dentro de alunos/seu-nome/
-# Depois envie:
+# Crie uma branch para esta entrega
+git checkout -b feat/exercicio-01-seu-nome
+
+# Trabalhe dentro de alunos/seu-nome/ ...
+
+# Commit e envio
 git add alunos/seu-nome/
 git commit -m "feat(alunos): adiciona exercício 01 - Seu Nome"
-git push origin main
+git push origin feat/exercicio-01-seu-nome
 
-# Por fim, abra um Pull Request no GitHub
+# Abra o Pull Request no link exibido no terminal
 ```
 
-Consulte o [CONTRIBUTING.md](./CONTRIBUTING.md) para o guia completo, incluindo como resolver conflitos.
+Guia completo com convenção de commits, resolução de conflitos e boas práticas: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
 
-## Regras do Repositório
+## Para Educadores
 
-- Mantenha todos os seus arquivos dentro da sua pasta `alunos/nome-sobrenome/`
-- **Nunca** modifique arquivos de outros alunos
-- Nomes de arquivo sem espaços — use `_` ou `-` (ex: `exercicio_01.ipynb`)
-- Datasets grandes (> 50 MB): adicione apenas na pasta `datasets/` compartilhada
-- Notebooks devem rodar sem erros antes de serem enviados
-- Commits com mensagens descritivas seguindo a convenção do projeto
+Este repositório pode ser adaptado como **template para qualquer curso de análise de dados**.
+
+**Como usar:**
+
+1. Faça um fork deste repositório
+2. Edite `README.md` com o nome da sua turma e instituição
+3. Atualize `CONTRIBUTING.md` com seu fluxo de trabalho
+4. Adicione seus alunos como colaboradores no GitHub
+5. Substitua os materiais em `aulas/` pelos seus
+6. Cada aluno cria sua pasta em `alunos/` e entrega via PR
+
+**Funciona para:**
+
+- Cursos técnicos (SENAI, SENAC, IFs, CEFETs)
+- Bootcamps de dados e tecnologia
+- Disciplinas universitárias de ciência de dados
+- Programas de capacitação corporativa
 
 ---
 
-## Dúvidas e Suporte
+## Contribuindo
 
-- Abra uma **[Issue](https://github.com/cfneves/turma-visualizacao-de-dados/issues)** com a tag `[dúvida]` no título
-- Para problemas no seu PR, descreva o erro na própria thread do PR
-- Para conflitos de merge, consulte a seção específica no [CONTRIBUTING.md](./CONTRIBUTING.md#resolvendo-conflitos)
+Contribuições são bem-vindas. Leia o [CONTRIBUTING.md](./CONTRIBUTING.md) para entender o fluxo, a convenção de commits e as boas práticas.
+
+Encontrou um problema ou tem uma sugestão? [Abra uma Issue.](https://github.com/cfneves/turma-visualizacao-de-dados/issues)
+
+---
+
+## Código de Conduta
+
+Este projeto adota o [Contributor Covenant v2.1](./CODE_OF_CONDUCT.md). Ao participar, você concorda em manter um ambiente respeitoso e colaborativo para todos.
+
+---
+
+## Licença
+
+Distribuído sob a [licença MIT](./LICENSE). Materiais didáticos podem ser adaptados livremente com atribuição.
 
 ---
 
 ## Professor
 
-**Cláudio Neves** — [GitHub](https://github.com/cfneves)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/cfneves">
+        <img src="https://github.com/cfneves.png" width="72" alt="Cláudio Neves" style="border-radius:50%">
+        <br>
+        <strong>Cláudio Neves</strong>
+      </a>
+      <br>
+      <sub>Análise de Dados · BI · Lab365 / SENAI SC</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
 <div align="center">
-  <sub>Feito com dedicação pela turma de Visualização de Dados · Lab365 / SENAI SC</sub>
+  <sub>
+    Feito com dedicação pela turma de Visualização de Dados · Lab365 / SENAI SC
+    <br><br>
+    <a href="https://github.com/cfneves/turma-visualizacao-de-dados/stargazers">⭐ Se este repositório foi útil, deixe uma estrela</a>
+  </sub>
 </div>

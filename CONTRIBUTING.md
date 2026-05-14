@@ -11,8 +11,9 @@ Bem-vindo! Este guia explica como enviar seus trabalhos corretamente e manter o 
 3. [Fluxo de entrega](#3-fluxo-de-entrega)
 4. [Convenção de commits](#4-convenção-de-commits)
 5. [Abrindo um Pull Request](#5-abrindo-um-pull-request)
-6. [Resolvendo conflitos](#6-resolvendo-conflitos)
-7. [Boas práticas em notebooks](#7-boas-práticas-em-notebooks)
+6. [Verificação automática de PRs](#6-verificação-automática-de-prs)
+7. [Resolvendo conflitos](#7-resolvendo-conflitos)
+8. [Boas práticas em notebooks](#8-boas-práticas-em-notebooks)
 
 ---
 
@@ -20,21 +21,29 @@ Bem-vindo! Este guia explica como enviar seus trabalhos corretamente e manter o 
 
 Faça isso **uma única vez** no início do curso.
 
-```bash
-# Fork o repositório pelo GitHub (botão "Fork" no canto superior direito)
+**Passo 1 — Faça um Fork do repositório:**
 
-# Clone o SEU fork (substitua SEU_USUARIO)
+Clique no botão **Fork** no canto superior direito da página do repositório no GitHub. Isso cria uma cópia pessoal na sua conta.
+
+**Passo 2 — Clone o seu fork e configure o upstream:**
+
+```bash
+# Clone o SEU fork (substitua SEU_USUARIO pelo seu username):
 git clone https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git
 cd turma-visualizacao-de-dados
 
-# Adicione o repositório original como "upstream"
+# Adicione o repositório original como "upstream":
 git remote add upstream https://github.com/cfneves/turma-visualizacao-de-dados.git
 
-# Confirme que os dois remotes estão configurados
+# Confirme os remotes configurados:
 git remote -v
 # origin    https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git (fetch)
+# origin    https://github.com/SEU_USUARIO/turma-visualizacao-de-dados.git (push)
 # upstream  https://github.com/cfneves/turma-visualizacao-de-dados.git (fetch)
+# upstream  https://github.com/cfneves/turma-visualizacao-de-dados.git (push)
 ```
+
+> **Por que fork?** O repositório principal está protegido — nenhum aluno pode fazer push direto. O fluxo correto é: trabalhe na sua fork → abra um PR → o professor revisa e merge.
 
 ---
 
@@ -68,25 +77,29 @@ Edite o `README.md` com suas informações reais — esse arquivo é o seu cart�
 Para **cada entrega** (exercício ou projeto), siga este fluxo:
 
 ```bash
-# Passo 1: Sincronize com o repositório original
+# Passo 1: Sincronize sua fork com o repositório principal
 git fetch upstream
 git checkout master
 git merge upstream/master
+git push origin master          # mantém sua fork atualizada
 
 # Passo 2: Crie uma branch para esta entrega
 git checkout -b feat/exercicio-01-seu-nome
 
-# Passo 3: Adicione seus arquivos na sua pasta
-# (nunca modifique arquivos fora de alunos/seu-nome/)
+# Passo 3: Adicione seus arquivos SOMENTE dentro da sua pasta
+# ⚠️  Nunca modifique arquivos fora de alunos/seu-nome/
 
 # Passo 4: Commit
 git add alunos/seu-nome/
 git commit -m "feat(alunos): adiciona exercício 01 - Seu Nome"
 
-# Passo 5: Push para o seu fork
+# Passo 5: Envie a branch para o SEU fork
 git push origin feat/exercicio-01-seu-nome
 
 # Passo 6: Abra o Pull Request no GitHub
+# (o terminal exibe o link direto após o push)
+# Base: cfneves/turma-visualizacao-de-dados → master
+# Compare: SEU_USUARIO/turma-visualizacao-de-dados → feat/exercicio-01-seu-nome
 ```
 
 ---
@@ -120,9 +133,9 @@ git commit -m "data: adiciona dataset vendas_2024.csv"
 
 ## 5. Abrindo um Pull Request
 
-1. Acesse seu fork no GitHub
+1. Após o `git push`, o terminal exibe um link direto — clique nele, ou acesse o repositório no GitHub
 2. Clique em **"Compare & pull request"** (aparece automaticamente após o push)
-3. Verifique que a base é `cfneves/turma-visualizacao-de-dados` → **`master`** (não `main`)
+3. Verifique que a base é `cfneves/turma-visualizacao-de-dados` → **`master`**
 4. Preencha o template do PR (título + checklist)
 5. Clique em **"Create pull request"**
 
@@ -134,24 +147,38 @@ feat(alunos): adiciona [exercício/projeto] - Seu Nome
 
 ---
 
-## 6. Resolvendo Conflitos
+## 6. Verificação Automática de PRs
 
-Conflitos acontecem quando outro aluno enviou arquivos depois que você criou o fork. É normal — não é erro seu.
+Ao abrir um PR, dois workflows são disparados automaticamente:
+
+| Workflow | O que faz |
+|----------|-----------|
+| **🔒 Validador de Escopo** | Verifica se todos os arquivos alterados estão dentro de `alunos/SeuNome/`. Se arquivos fora da sua pasta forem detectados, o PR é bloqueado com um comentário explicativo. |
+| **👋 Boas-vindas** | No seu primeiro PR, você recebe uma mensagem com checklist rápido. |
+
+**O que fazer se o validador reprovar seu PR:**
+
+1. Leia o comentário automático — ele lista os arquivos com problema
+2. Corrija sua branch removendo alterações fora da sua pasta
+3. Faça um novo push — o workflow re-executa automaticamente
+
+**Para que a validação funcione**, seu GitHub username precisa estar cadastrado em `.github/students.json`. Se for seu primeiro PR no repositório, avise o professor para que ele faça o cadastro.
+
+---
+
+## 7. Resolvendo Conflitos
+
+Conflitos acontecem quando outro aluno enviou arquivos enquanto você trabalhava na sua branch. É normal — não é erro seu.
 
 ```bash
-# 1. Traga as atualizações do repositório original
-git fetch upstream
-
-# 2. Vá para sua branch principal
+# 1. Traga as atualizações do repositório
 git checkout master
+git pull origin master
 
-# 3. Integre as mudanças
-git merge upstream/master
-
-# 4. Volte para a branch da sua entrega
+# 2. Volte para a branch da sua entrega
 git checkout feat/seu-exercicio
 
-# 5. Aplique as mudanças do master na sua branch
+# 3. Aplique as mudanças do master na sua branch
 git rebase master
 ```
 
@@ -160,24 +187,24 @@ Se aparecer um conflito num arquivo de outro aluno (ex: `alunos/maria_helena/REA
 ```bash
 # Abra o arquivo conflitado e remova os marcadores:
 # <<<<<<< HEAD
-# (versão do upstream — MANTENHA ESTA)
+# (versão do master — MANTENHA ESTA)
 # =======
-# (versão do seu fork — REMOVA ESTA PARTE)
+# (versão da sua branch — REMOVA ESTA PARTE)
 # >>>>>>> sua-branch
 
 # Após resolver:
 git add alunos/nome-do-colega/README.md
 git rebase --continue
 
-# Atualize seu fork remoto
+# Atualize a branch remota
 git push origin feat/seu-exercicio --force-with-lease
 ```
 
-**Regra de ouro:** em conflito com arquivo de outro aluno, **sempre mantenha a versão do upstream** (a versão do repositório original).
+**Regra de ouro:** em conflito com arquivo de outro aluno, **sempre mantenha a versão do `master`** (a versão do repositório original).
 
 ---
 
-## 7. Boas Práticas em Notebooks
+## 8. Boas Práticas em Notebooks
 
 - Reinicie o kernel e execute todas as células (`Kernel > Restart & Run All`) antes de commitar
 - Sem erros de execução — células com erro **bloqueiam o PR**
