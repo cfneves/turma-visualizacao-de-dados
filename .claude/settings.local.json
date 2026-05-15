@@ -10,7 +10,8 @@
       "Bash(git stash *)",
       "Bash(git log *)",
       "Bash(powershell *)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(git rebase *)"
     ]
   }
 }
